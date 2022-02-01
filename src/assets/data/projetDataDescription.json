@@ -1,0 +1,84 @@
+[
+    {
+    "id": 0,
+    "Key":0,
+    "tag":[" projet scolaire","2021"],
+    "imgPoster" : "",
+    "title" :"Hello word",
+    "intro" :"Voici mon premier site, une réalisation en deux pages, une première expérience dans cette immense monde qu'est le devellopement web. "
+
+},
+    {
+    "id": 1,
+    "Key":1,
+    "tag":["projet scolaire","2021"],
+    "imgPoster" : "",
+    "title" :"Iolce",
+    "intro" :"Le savoir ce transmet, et les conférences en sont aussi un vecteur, ici après le visionnage d'une conférence de Tantek Çelik voici mon travail de présentation sur ces propos."
+
+},
+    {
+    "id": 2,
+    "Key":2,
+    "tag":["projet scolaire", "2021"],
+    "imgPoster" : "",
+    "title" :"RUX, analyse & reconstruction",
+    "intro" :"Avec le site de l'IMAL, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences... "
+
+},
+    {
+    "id": 3,
+    "Key":3,
+    "tag":["projet scolaire", "2022"],
+    "imgPoster" : "",
+    "title" :"RUX, analyse & reconstruction",
+    "intro" :"Avec le site du BAM, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences ( les retex )."
+
+},
+    {
+    "id": 4,
+    "Key":4,
+    "tag":["projet scolaire", "2021", "js"],
+    "imgPoster" : "",
+    "title" :"DATA-Play, du fun & des datas",
+    "intro" :"Voici une analayse de données que j’ai réalisé avec des potes sur le thèmes des insultes. On vous montre la fréquences d’utilisations de ces bad-words en fonction de certains critère, curieux ? "
+
+},
+    {
+    "id": 5,
+    "Key":5,
+    "tag":["projet scolaire", "2022"],
+    "imgPoster" : "",
+    "title" :"Data play",
+    "intro" :" "
+
+},
+    {
+    "id": 6,
+    "Key":6,
+    "tag":["projet scolaire", "2021"],
+    "imgPoster" : "",
+    "title" :"TFA , Music’Owl",
+    "intro" :"Voici mon TFA de 2021, c’est une landing-page ainsi qu’un mvp d’une application pour apprendre le solfège à des personnes amateurs ou bien qui non pas le temps de ce rendre à des cours classique. "
+
+},
+    {
+    "id": 7,
+    "Key":7,
+    "tag":["projet scolaire", "2022"],
+    "imgPoster" : "",
+    "title" :"TFA",
+    "intro" :" "
+
+},
+    {
+    "id": 8,
+    "Key":8,
+    "tag":["projet scolaire","platformer", "js"],
+    "imgPoster" : "",
+    "title" :"ILAB, un platformer en JS",
+    "intro" :"Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux ."
+
+}
+]
+
