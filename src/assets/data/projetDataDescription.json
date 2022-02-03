@@ -4,7 +4,7 @@
     "Key":0,
     "tag":[" projet scolaire","2021"],
     "imgPoster" : "",
-    "title" :"Hello word",
+    "title" :"Hello\u00a0 word",
     "intro" :"Voici mon premier site, une réalisation en deux pages, une première expérience dans cette immense monde qu'est le devellopement web. "
 
 },
@@ -22,7 +22,7 @@
     "Key":2,
     "tag":["projet scolaire", "2021"],
     "imgPoster" : "",
-    "title" :"RUX, analyse & reconstruction",
+    "title" :"RUX,\u00a0analyse\u00a0&\u00a0reconstruction",
     "intro" :"Avec le site de l'IMAL, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences... "
 
 },
@@ -31,7 +31,7 @@
     "Key":3,
     "tag":["projet scolaire", "2022"],
     "imgPoster" : "",
-    "title" :"RUX, analyse & reconstruction",
+    "title" :"RUX,\u00a0analyse\u00a0&\u00a0reconstruction",
     "intro" :"Avec le site du BAM, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences ( les retex )."
 
 },
@@ -40,7 +40,7 @@
     "Key":4,
     "tag":["projet scolaire", "2021", "js"],
     "imgPoster" : "",
-    "title" :"DATA-Play, du fun & des datas",
+    "title" :"DATA-Play,\u00a0du\u00a0fun\u00a0&\u00a0des\u00a0datas",
     "intro" :"Voici une analayse de données que j’ai réalisé avec des potes sur le thèmes des insultes. On vous montre la fréquences d’utilisations de ces bad-words en fonction de certains critère, curieux ? "
 
 },
@@ -49,7 +49,7 @@
     "Key":5,
     "tag":["projet scolaire", "2022"],
     "imgPoster" : "",
-    "title" :"Data play",
+    "title" :"Data\u00a0play",
     "intro" :" "
 
 },
@@ -58,7 +58,7 @@
     "Key":6,
     "tag":["projet scolaire", "2021"],
     "imgPoster" : "",
-    "title" :"TFA , Music’Owl",
+    "title" :"TFA,\u00a0Music’Owl",
     "intro" :"Voici mon TFA de 2021, c’est une landing-page ainsi qu’un mvp d’une application pour apprendre le solfège à des personnes amateurs ou bien qui non pas le temps de ce rendre à des cours classique. "
 
 },
@@ -74,6 +74,33 @@
     {
     "id": 8,
     "Key":8,
+    "tag":["projet scolaire","platformer", "js"],
+    "imgPoster" : "",
+    "title" :"ILAB,\u00a0un\u00a0platformer\u00a0en\u00a0JS",
+    "intro" :"Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux ."
+
+},
+    {
+    "id": 9,
+    "Key":9,
+    "tag":["projet perso","platformer", "js"],
+    "imgPoster" : "",
+    "title" :"ILAB, un platformer en JS",
+    "intro" :"Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux ."
+
+},
+    {
+    "id": 10,
+    "Key":10,
+    "tag":["projet scolaire","platformer", "js"],
+    "imgPoster" : "",
+    "title" :"ILAB, un platformer en JS",
+    "intro" :"Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux ."
+
+},
+    {
+    "id": 11,
+    "Key":11,
     "tag":["projet scolaire","platformer", "js"],
     "imgPoster" : "",
     "title" :"ILAB, un platformer en JS",

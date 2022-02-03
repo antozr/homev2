@@ -1,0 +1,120 @@
+
+
+.foot{
+    background-color: #FEDAA0;
+    width: calc(100% - 56px);
+    height: 822px;
+    padding: 38px 28px 0 28px ;
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+
+
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 120px;
+        list-style: none;
+        column-gap: 5%;
+        margin: 84px 0 0 0 ;
+
+        &--rs{
+            margin: 38px 0 0 0 ;
+        }
+        
+    }
+    &__el{
+        width: 47.5%;
+        height: 25px;
+        margin: 16px 0 0 0;
+
+        &:nth-child(1){
+            margin: 0;
+        };
+        &:nth-child(4){
+            margin: 0;
+        };
+        
+    }
+    &__navLink{
+        font-family: 'Basement';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333333;
+        text-decoration: none;
+        height: 25px;
+
+        &--rs{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            font-family: 'ep-stellaris';
+            font-size: 16px;
+            color: #000000;
+
+            &:nth-child(4){
+                width: 326px;
+            }
+        }
+    }
+    &__rs{
+        margin: 123px 0 0 0 ;
+    }
+    &__txtRs{
+        margin: 3px 0 0 10px;
+    }
+    &__anim{
+        width: 100%;
+        padding: 0 28px;
+        margin: 182px 0 0 -28px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    &__txtAnim{
+            font-family: 'ep-stellaris';
+            font-size: 16px;
+            color: #000000;
+            text-transform: uppercase;
+            line-height: 140%;
+            animation: animTxtFoot 40s infinite linear;
+            white-space: nowrap;
+            text-align: center;
+            flex-direction: row;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+
+            &>span{
+                margin: 0 0 0 5px;
+            }
+            &--reverse{
+                animation: animTxtFootReverse 40s infinite linear;
+                justify-content: flex-start;
+            }
+    }
+}
+
+@keyframes animTxtFoot{
+    from{
+        transform: translate3d(10%,0,0);
+    }
+    to{
+        transform: translate3d(100%,0,0);
+    }
+}
+@keyframes animTxtFootReverse{
+    from{
+        transform: translate3d(-10%,0,0);
+    }
+    to{
+        transform: translate3d(-100%,0,0);
+    }
+}

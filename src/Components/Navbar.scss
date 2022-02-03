@@ -1,4 +1,5 @@
 
+
 .navbar{
 
     display: flex;
@@ -23,13 +24,13 @@
 
         &--anim{
             animation: closeMenu 0.6s;
-            background-color: #fff;
+            background-color: #FEDAA0;
             display: flex;
             flex-direction: column;
             transition-delay: 0.4s;
             height: 100vh;
             width: calc(100% - 28px);
-            padding: 15vh 0 121px 28px;
+            padding: 18vh 0 121px 28px;
             position: absolute;
             z-index: 20;
             left: 0;
@@ -43,8 +44,8 @@
             transition-delay: 0.4s;
             height: 100vh;
             width: calc(100% - 28px);
-            padding: 15vh 0 121px 28px;
-            position: absolute;
+            padding: 18vh 0 121px 28px;
+            position: fixed;
             z-index: 20;
             left: 0;
             top: 0;
@@ -60,11 +61,11 @@
         height: 86px;
         width: 100%;
         margin: 87px 0 0 0 ;
-        border-bottom: 2px solid #FABE79;
-
+        border-bottom: 2px solid #FEDAA0;
         &:first-child{
             margin: 0;
         }
+
     }
 
     
@@ -78,6 +79,12 @@
         position: relative;
         z-index: 22;
 
+        &--open{
+            position: fixed;
+            top: 0px;
+            right: 28px;
+
+        }
 
         
     }
@@ -94,7 +101,7 @@
         }
 
         &--open{
-
+            
             &:nth-child(1){
                 transform: rotate(45deg) translateX(6px);
                 transition: 0.6s;
@@ -116,46 +123,96 @@
     &__link{
         font-family: 'ep-stellaris';
         text-decoration: none;
-        color: #333333;
+        color: #ffffff;
         font-size: 28px;
         width: 100%;
         height: 85px;
+        transform: rotateX(90deg);
+        transform-origin: 50% 50% -43px;
+        display: block;
+
+        &--anim{
+            transform: rotateX(0deg);
+            color: #333333;
+        }
+        &--1{
+            animation:elAnim 1.2s  ;
+        }
+        &--2{
+            animation:elAnim 1.9s  ;
+        }
+        &--3{
+            animation:elAnim 2.3s  ;
+        }
+        &--4{
+            animation:elAnim 2.6s  ;
+            
+        }
+        &--5{
+            animation:elAnim 3.2s  ;
+            
+        }
+        
        
     }
 }
 
 
 
-@keyframes openMenu{
 
-    0%{
-        opacity: 0;
-        transform: translateX(100vw);
-    }
 
-    60%{
-        opacity: 0.4;
-        right: 70vw;
-    }
+@media(max-width:390px){
+    .navbar{
 
-    90%{
-        transform: translateX(-30px);
-        
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-@keyframes closeMenu{
-
-    0%{
-        opacity: 1;
-        transform: translateX(-10vw);
-    }
-
-    100%{
-        opacity: 0;
-        transform: translateX(100vw);
+        &__list{
+            display: none;
+            left: 100vw;
+            
+            
+    
+            &--anim{
+                animation: closeMenu 0.6s;
+                background-color: #FEDAA0;
+                display: flex;
+                flex-direction: column;
+                transition-delay: 0.4s;
+                height: 100vh;
+                width: calc(100% - 28px);
+                padding: 14vh 0 121px 28px;
+                position: absolute;
+                z-index: 20;
+                left: 0;
+                top: 0;
+                list-style: none;
+                
+            }
+            &--actif{
+                display: flex;
+                flex-direction: column;
+                transition-delay: 0.4s;
+                height: 100vh;
+                width: calc(100% - 28px);
+                padding: 14vh 0 121px 28px;
+                position: fixed;
+                z-index: 20;
+                left: 0;
+                top: 0;
+                list-style: none;
+                background-color: #fff;
+                animation: openMenu 0.8s;
+                
+                
+            }
+        }
+        &__el{
+            height: 66px;
+            width: 100%;
+            margin: 67px 0 0 0 ;
+            border-bottom: 2px solid #FEDAA0;
+            &:first-child{
+                margin: 0;
+            }
+    
+        }
     }
 }
