@@ -1,11 +1,12 @@
 import React from 'react';
 import SelectMode from '../Components/SelectMode';
-import imageMars from '../assets/img/mars.png';
+import imageMars from '../assets/img/mars.jpeg';
 import dataCard from '../assets/data/projetDataDescription.json';
 import HomeTel from '../assets/svg/tel.svg';
 import './Home.scss';
 import '../Components/Card.scss';
 import { Link } from 'react-router-dom';
+import Card from '../Components/Card';
 
 function Home() {
 
@@ -51,48 +52,8 @@ function Home() {
                     Une&nbsp;envie&nbsp;rapide&nbsp;?
                 </h2>
                 <div className="home__rapidBox">
-                    <div className="card">
-                        <img src={imageMars} alt="Voici la représentation de mon projet Mars the new hope" className="card__img" />
-                        <h2 className="card__title">
-                        {dataCard[alpha].title}
-                        </h2>
-                        <p className="card__txt">
-                        {dataCard[alpha].intro}
-                        </p>
-                        <div className="card__list">
-                            <li className="card__el">
-                                <p className="card__tagTxt">
-                                    {dataCard[alpha].tag[1]}
-                                </p>
-                            </li>
-                            <li className="card__el">
-                                <Link to={"/"} className='card__link'>
-                                    see project
-                                </Link>
-                            </li>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <img src={imageMars} alt="Voici la représentation de mon projet Mars the new hope" className="card__img" />
-                        <h2 className="card__title">
-                        {dataCard[alpha2].title}
-                        </h2>
-                        <p className="card__txt">
-                        {dataCard[alpha2].intro}
-                        </p>
-                        <div className="card__list">
-                            <li className="card__el">
-                                <p className="card__tagTxt">
-                                    {dataCard[alpha2].tag[0]}
-                                </p>
-                            </li>
-                            <li className="card__el">
-                                <Link to={"/"} className='card__link'>
-                                    see project
-                                </Link>
-                            </li>
-                        </div>
-                    </div>
+                    <Card title={dataCard[alpha].title} tag={dataCard[alpha].tag[0]} poster={dataCard[alpha].imgPoster} intro={dataCard[alpha].intro} />
+                    <Card title={dataCard[alpha2].title} tag={dataCard[alpha2].tag[0]} poster={imageMars} intro={dataCard[alpha2].intro} /> 
                 </div>
             </div>
 

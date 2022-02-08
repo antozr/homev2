@@ -30,7 +30,7 @@
             transition-delay: 0.4s;
             height: 100vh;
             width: calc(100% - 28px);
-            padding: 18vh 0 121px 28px;
+            padding: 16vh 0 121px 28px;
             position: absolute;
             z-index: 20;
             left: 0;
@@ -44,7 +44,7 @@
             transition-delay: 0.4s;
             height: 100vh;
             width: calc(100% - 28px);
-            padding: 18vh 0 121px 28px;
+            padding: 16vh 0 121px 28px;
             position: fixed;
             z-index: 20;
             left: 0;
@@ -60,7 +60,7 @@
     &__el{
         height: 86px;
         width: 100%;
-        margin: 87px 0 0 0 ;
+        margin: 51px 0 0 0 ;
         border-bottom: 2px solid #FEDAA0;
         &:first-child{
             margin: 0;
@@ -71,17 +71,19 @@
     
     &__btn{
         width: 24px;
-        height: 18px;
+        height: 62px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 22px 0;
         position: relative;
         z-index: 22;
+        border: none;
+        background-color: #ffffff00;
+
 
         &--open{
-            position: fixed;
-            top: 0px;
+            position: fixed;         
             right: 28px;
 
         }

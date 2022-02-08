@@ -8,15 +8,15 @@ function SelectMode() {
 
     const dataLink = [
         {
-            link: "/project-scolaire",
+            link: "/projet-scolaire",
             titre: "Projet Scolaire"
         },
         {
-            link: "/project-perso",
+            link: "/projet-perso",
             titre: "Projet Perso"
         },
         {
-            link: "/project-devchallenge",
+            link: "/projet-devchallenge",
             titre: "Projet DevChallenges.io"
         },
         {

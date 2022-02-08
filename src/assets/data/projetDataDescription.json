@@ -2,8 +2,8 @@
     {
     "id": 0,
     "Key":0,
-    "tag":[" projet scolaire","2021"],
-    "imgPoster" : "",
+    "tag":["projet scolaire","2021", "responsive"],
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"Hello\u00a0 word",
     "intro" :"Voici mon premier site, une réalisation en deux pages, une première expérience dans cette immense monde qu'est le devellopement web. "
 
@@ -11,8 +11,8 @@
     {
     "id": 1,
     "Key":1,
-    "tag":["projet scolaire","2021"],
-    "imgPoster" : "",
+    "tag":["projet scolaire","2021", "responsive"],
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"Iolce",
     "intro" :"Le savoir ce transmet, et les conférences en sont aussi un vecteur, ici après le visionnage d'une conférence de Tantek Çelik voici mon travail de présentation sur ces propos."
 
@@ -20,8 +20,8 @@
     {
     "id": 2,
     "Key":2,
-    "tag":["projet scolaire", "2021"],
-    "imgPoster" : "",
+    "tag":["projet scolaire", "2021", "responsive"],
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"RUX,\u00a0analyse\u00a0&\u00a0reconstruction",
     "intro" :"Avec le site de l'IMAL, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences... "
 
@@ -29,8 +29,8 @@
     {
     "id": 3,
     "Key":3,
-    "tag":["projet scolaire", "2022"],
-    "imgPoster" : "",
+    "tag":["projet scolaire", "2022", "responsive"],
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"RUX,\u00a0analyse\u00a0&\u00a0reconstruction",
     "intro" :"Avec le site du BAM, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences ( les retex )."
 
@@ -39,7 +39,7 @@
     "id": 4,
     "Key":4,
     "tag":["projet scolaire", "2021", "js"],
-    "imgPoster" : "",
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"DATA-Play,\u00a0du\u00a0fun\u00a0&\u00a0des\u00a0datas",
     "intro" :"Voici une analayse de données que j’ai réalisé avec des potes sur le thèmes des insultes. On vous montre la fréquences d’utilisations de ces bad-words en fonction de certains critère, curieux ? "
 
@@ -47,8 +47,8 @@
     {
     "id": 5,
     "Key":5,
-    "tag":["projet scolaire", "2022"],
-    "imgPoster" : "",
+    "tag":["projet scolaire", "2022", "responsive"],
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"Data\u00a0play",
     "intro" :" "
 
@@ -56,8 +56,8 @@
     {
     "id": 6,
     "Key":6,
-    "tag":["projet scolaire", "2021"],
-    "imgPoster" : "",
+    "tag":["projet scolaire", "2021", "tfa"],
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"TFA,\u00a0Music’Owl",
     "intro" :"Voici mon TFA de 2021, c’est une landing-page ainsi qu’un mvp d’une application pour apprendre le solfège à des personnes amateurs ou bien qui non pas le temps de ce rendre à des cours classique. "
 
@@ -65,8 +65,8 @@
     {
     "id": 7,
     "Key":7,
-    "tag":["projet scolaire", "2022"],
-    "imgPoster" : "",
+    "tag":["projet scolaire", "2022", "tfa"],
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"TFA",
     "intro" :" "
 
@@ -74,8 +74,8 @@
     {
     "id": 8,
     "Key":8,
-    "tag":["projet scolaire","platformer", "js"],
-    "imgPoster" : "",
+    "tag":["projet scolaire","2022", "js", "platformer"],
+    "imgPoster" : "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
     "title" :"ILAB,\u00a0un\u00a0platformer\u00a0en\u00a0JS",
     "intro" :"Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux ."
 
@@ -83,28 +83,136 @@
     {
     "id": 9,
     "Key":9,
-    "tag":["projet perso","platformer", "js"],
-    "imgPoster" : "",
-    "title" :"ILAB, un platformer en JS",
-    "intro" :"Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux ."
+    "tag":["projet\u00a0devchallenge", "js","responsive"],
+    "imgPoster" : "https://github.com/antozr/devchallenges-stapeOne/raw/main/assets/img/screenshot.png",
+    "title" :"404\u00a0error\u00a0page",
+    "intro" :"Voici le premier projet que j'ai réaliser dans les défis de devchallenge.io, cette exercice n'est pas le plus compliqué mais une bonne mise en bouche au travail. "
 
 },
     {
     "id": 10,
     "Key":10,
-    "tag":["projet scolaire","platformer", "js"],
-    "imgPoster" : "",
-    "title" :"ILAB, un platformer en JS",
-    "intro" :"Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux ."
+    "tag":["projet\u00a0devchallenge", "js","responsive"],
+    "imgPoster" : "https://github.com/antozr/devchallenge-Step-Two-/raw/main/assets/img/ecran.png?raw=true",
+    "title" :"My\u00a0team\u00a0page",
+    "intro" :"Une présentation qui change et qui a du mouvement, de la version mobile à la version pc. Pour ceci une utilisation de grid et quelque modification on réussi."
 
 },
     {
     "id": 11,
     "Key":11,
-    "tag":["projet scolaire","platformer", "js"],
+    "tag":["projet\u00a0devchallenge", "js","responsive"],
+    "imgPoster" : "https://camo.githubusercontent.com/85a2c29c195163cc6f52d3ac0eda82c3ca6c529f807fa4b814038b934f01eb53/687474703a2f2f696e746572696f722e6465766368616c6c656e6765732e696f2e616e746f6e692d64756d6f6e742e62652f6173736574732f696d672f436170747572652e504e47",
+    "title" :"Interior\u00a0Consultant",
+    "intro" :"Une présentation simple et épurrée avec un accès a un burger menu, qui reserve quelque surprise ^^. Pour montrer le travail d'un consultant en interrieur."
+
+},
+    {
+    "id": 12,
+    "Key":12,
+    "tag":["projet\u00a0devchallenge", "js","responsive"],
+    "imgPoster" : "https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FrecipeBlogThumbnail.png%3Falt%3Dmedia%26token%3D2d696d3c-a8cb-4c7c-907b-561ae1144cc9&w=640&q=75",
+    "title" :"Cheesecake,\u00a0recette\u00a0🥞",
+    "intro" :"Voici la recette d'un bon cheesecake clasique, comme ça présentation mais d'un device à l'autre l'expérience s'addapte. Avec différentes intéractions ..."
+
+},
+    {
+    "id": 13,
+    "Key":13,
+    "tag":["projet\u00a0devchallenge", "js","responsive"],
+    "imgPoster" : "https://camo.githubusercontent.com/ff8ba3d731b3b86915b2e7399dd2c350d8f01fa2f393de4aaac85fd2474e4714/687474703a2f2f7777772e67616c6c6572792e6465766368616c6c656e6765732e696f2e616e746f6e692d64756d6f6e742e62652f6173736574732f696d616765732f436170747572652e504e47",
+    "title" :"Une\u00a0gallerie\u00a0photo\u00a0📸",
+    "intro" :"Voici une présentation de photo inspirée par instagram & Unsplash, toute les images tiennes dans une grille pour créer cette mosaic. Simplicité et beauté. "
+
+},
+    {
+    "id": 14,
+    "Key":14,
+    "tag":["projet\u00a0devchallenge", "js","responsive"],
+    "imgPoster" : "https://camo.githubusercontent.com/2aadb7130cb2d5536938f844ecda0644fde8f576352953ff79d205d5d4f3baa4/687474703a2f2f7777772e636865636b6465766368616c6c656e6765732e696f2e616e746f6e692d64756d6f6e742e62652f6173736574732f696d672f436170747572652e504e47",
+    "title" :"Page\u00a0de\u00a0paiement",
+    "intro" :"Nous voici à la fin de notre sur le webshop d'une boutique et vous devez remplir vos informations pour recevoir vos article. "
+
+},
+    {
+    "id": 15,
+    "Key":15,
+    "tag":["projet\u00a0devchallenge", "js","responsive"],
+    "imgPoster" : "https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FEdieHomageThumbnail.png%3Falt%3Dmedia%26token%3D72c573b5-6389-425c-b947-de63f0f5b2ef&w=750&q=75",
+    "title" :"Edie\u00a0homepage",
+    "intro" :"Voici une page de présentation pour une société fictive avec un design assez particulier qui permet de donné une identité assez remarquable. Envie de voir ? "
+
+},
+    {
+    "id": 16,
+    "Key":16,
+    "tag":["projet\u00a0devchallenge", "js","responsive"],
+    "imgPoster" : "https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FPortfolioThumbnail.png%3Falt%3Dmedia%26token%3D417f625d-715a-4611-8215-2c19aaf490f9&w=640&q=75",
+    "title" :"un\u00a0portfolio",
+    "intro" :"Voici mon portfolio, avec mes informations et le designs qui était fait, enfin avec une composition faite en suivant les demandes et ce qui était possible de faire."
+
+},
+    {
+    "id": 17,
+    "Key":17,
+    "tag":["projet\u00a0devchallenge","react", "front"],
+    "imgPoster" : "https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FButtonThumbnail.png%3Falt%3Dmedia%26token%3D3ddbedcf-a08b-4144-928f-e551b4bcee80&w=750&q=75",
+    "title" :"Boutons\u00a0&\u00a0inputs",
+    "intro" :"Voici un petit projet qui présente, sur des pages différentes, un boutton et un input dans différentes configurations possible. Un clin d'oeuil pour tout voir. "
+
+},
+    {
+    "id": 18,
+    "Key":18,
+    "tag":["projet\u00a0devchallenge","react" ,"front"],
+    "imgPoster" : "https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FwindbnbThumbnail.png%3Falt%3Dmedia%26token%3D183d7d36-d216-4d30-9732-aa6e4ab0e8a5&w=750&q=75",
+    "title" :"Windbnb\u00a0🎏",
+    "intro" :"Un projet de recherche de bien locatif avec un design basé sur celui de airbnb, simple et efficace. Avec l'intégration par le biais d'une map l'ajout de carte se fait plus simple."
+
+},
+    {
+    "id": 19,
+    "Key":19,
+    "tag":["projet perso","" ,""],
     "imgPoster" : "",
-    "title" :"ILAB, un platformer en JS",
-    "intro" :"Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux ."
+    "title" :"",
+    "intro" :""
+
+},
+    {
+    "id": 19,
+    "Key":19,
+    "tag":["projet perso","" ,""],
+    "imgPoster" : "",
+    "title" :"",
+    "intro" :""
+
+},
+    {
+    "id": 19,
+    "Key":19,
+    "tag":["projet perso","" ,""],
+    "imgPoster" : "",
+    "title" :"",
+    "intro" :""
+
+},
+    {
+    "id": 19,
+    "Key":19,
+    "tag":["projet perso","" ,""],
+    "imgPoster" : "",
+    "title" :"",
+    "intro" :""
+
+},
+    {
+    "id": 19,
+    "Key":19,
+    "tag":["projet perso","" ,""],
+    "imgPoster" : "",
+    "title" :"",
+    "intro" :""
 
 }
 ]

@@ -6,13 +6,15 @@ import HomeTel from '../assets/svg/tel.svg';
 import './Project.scss';
 import FilterBox from '../Components/FilterBox';
 import IntroPageProjet from '../Components/IntroPageProjet';
-function Project() {
 
+function ProjetPerso() {
+  
+    
   var [checkBase, setCheckbase] = useState('true');
-  const [dataFilter, setDataFilter] = useState('projet scolaire');
+  const [dataFilter, setDataFilter] = useState('projet perso');
   const [dataLabel, setDataLabel] = useState('all');
   const dataIntro = [
-    "Mes projets à but scolaire",
+    "Mes projets personnel",
     "Voici ",
     "les sites que j’ai crée lors de mes cours pour répondre aux défis donné par les profs. Ainsi tu peux voir mes réussites en solo mais aussi les projets plus fun fais avec des potes pour répondre à une problématique.",
     "Tu ",
@@ -21,7 +23,6 @@ function Project() {
   ];
   /** to convert data tag name in lowerCase for */
   const nameFilter = ["All", "JS", "TFA", "2022"];
-  var loweer = nameFilter[0].toLowerCase();
 
   function countCard() {
     setTimeout(() => {
@@ -41,7 +42,7 @@ function Project() {
 
     if (labelNumb === 0) {
       setCheckbase(true);
-      setDataFilter("projet scolaire");
+      setDataFilter("projet perso");
       console.log(dataFilter);
       setDataLabel(labelName);
     } else if (labelNumb === 1) {
@@ -78,7 +79,7 @@ function Project() {
 
   return (
     <div className="project">
-      <HeadPage title={"Projet scolaire\u00a0🎒"} />
+      <HeadPage title={"Projet perso\u00a0👾"} />
       <IntroPageProjet dataIntro={dataIntro} />
       <section className="project__sect">
         <h2 className="home__title home__title--2 home__title--project">
@@ -100,37 +101,5 @@ function Project() {
     </div>
   )
 }
-/*
-<ul className="filter__list">
-          <li className="filter__el">
-            <label htmlFor="all" className="filter__label filter__label--click">
-              {nameFilter[0]}
-            </label>
-            <input type="radio" name="alpha" id="all" value="0" onClick={clickData} checked={checkBase} className="filter__item " />
-          </li>
-          <li className="filter__el" >
-            <label htmlFor="js" className="filter__label">
-              JS
-            </label>
-            <input type="radio" name="alpha" id="js" value="1" onClick={clickData} className="filter__item" />
 
-          </li>
-          <li className="filter__el">
-            <label htmlFor="tfa" className="filter__label">
-              TFA
-            </label>
-            <input type="radio" name="alpha" id="tfa" value="2" onClick={clickData} className="filter__item" />
-          </li>
-          <li className="filter__el">
-            <label htmlFor="2022" className="filter__label">
-              2022
-            </label>
-            <input type="radio" name="alpha" id="2022" value="3" onClick={clickData} className="filter__item" />
-          </li>
-          <li className="filter__el">
-            <p className='filter__count'>
-              0
-            </p>
-          </li>
-        </ul>*/
-export default Project;
+export default ProjetPerso;

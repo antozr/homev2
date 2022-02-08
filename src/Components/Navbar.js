@@ -109,11 +109,11 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
-            <div className="navbar__btn" onClick={openMenu}>
-                <div className="navbar__btnBox"></div>
-                <div className="navbar__btnBox"></div>
-                <div className="navbar__btnBox"></div>
-            </div>
+            <button className="navbar__btn" onClick={openMenu}>
+                <span className="navbar__btnBox"></span>
+                <span className="navbar__btnBox"></span>
+                <span className="navbar__btnBox"></span>
+            </button>
         </div>
     )
 }
