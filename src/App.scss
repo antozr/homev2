@@ -8,3 +8,7 @@
   src:  url(./assets/font/ep-stellaris.woff) format('woff');
 }
 
+a{
+  cursor: url('./assets/svg/hand_swipe.svg'), auto;
+  /*le faire bouger en fonction de sa position par rapport au bouton */
+}

@@ -67,9 +67,9 @@ function ProjetDevcha() {
 
   if (dataLabel === "all") {
     var dataScolaire = dataProjet.filter(el => el.tag[0] === dataFilter);
-  } else if (dataLabel === 'js' || dataLabel === "responsive") {
+  } else if ( dataLabel === "responsive") {
     var dataScolaire = dataProjet.filter(el => el.tag[0] === dataFilter && el.tag[2] === dataLabel);
-  } else if (dataLabel === 'js' || dataLabel === "react") {
+  } else if (dataLabel === "react") {
     var dataScolaire = dataProjet.filter(el => el.tag[0] === dataFilter && el.tag[1] === dataLabel);
   }
 

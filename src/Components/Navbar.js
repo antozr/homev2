@@ -75,9 +75,9 @@ const Navbar = () => {
     }
     return (
         <div className="navbar">
-            <p className="navbar__title">
+            <Link to={'/'} className="navbar__title">
                 anto__dev
-            </p>
+            </Link>
 
             <nav className="navbar__nav">
 

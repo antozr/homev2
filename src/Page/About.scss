@@ -36,8 +36,16 @@
 
         }
     }
+    &__icon{
+        width: 26px;
+        height: 26px;
+        padding: 9.5px;
+    }
     &__img{
         margin: 101px auto 0 15%;
+    }
+    &__skill{
+        margin: 91px  0 0 0 ;
     }
     &__skillItem{
         display: flex;
@@ -70,11 +78,12 @@
         max-width: 311px;
         
 
-        & > div{
-            background-color: #fff;
-            height: 16px;
-            width: 50%;
-            border-radius: 10px;
-        }
+        
+    }
+    &__inbox{
+        background-color: #fff;
+        height: 16px;
+        width: 50%;
+        border-radius: 10px;
     }
 }

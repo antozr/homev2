@@ -2,12 +2,27 @@ import React from 'react';
 import HeadPage from '../Components/HeadPage';
 import IntroPageProjet from '../Components/IntroPageProjet';
 import ListRs from '../Components/ListRS';
-import { Link } from 'react-router-dom';
 import doghat from '../assets/svg/doghat.svg';
 import './About.scss';
+import dataSkill from '../assets/data/dataSkill.json';
+import BoxSkillComponent from '../Components/BoxSkillComponent';
+
+/// importer les svg des icons & recuperer les liens par le front
+import html from '../assets/svg/html.svg';
+import jsi from '../assets/svg/js.svg';
+import reacts from '../assets/svg/react.svg';//
+import reduxs from '../assets/svg/redux.svg';
+import vues from '../assets/svg/vue.svg';
+import git from '../assets/svg/git.svg';//
+import firebase from '../assets/svg/firebase.svg';
+import designs from '../assets/svg/design.svg';
+import figma from '../assets/svg/figma.svg';
+import hand from '../assets/svg/hand_swipe.svg';
 
 function About() {
 
+  const dataIcon = [html, jsi, reacts,reduxs, vues, git, firebase , designs, figma, hand]
+  
   const dataIntro = [
     "Moi en quelque mots",
     "C’est anto aka anto__dev ",
@@ -19,7 +34,6 @@ function About() {
 
   ];
 
-  console.log(dataIntro);
 
   return (
     <div className="about">
@@ -37,21 +51,13 @@ function About() {
           &nbsp;valeur représente ce que je sais faire, ce que j’ai déjà utilisé dans les différents domaines qui m’as été donné de voir par moi-même et en cours.
         </p>
 
-        <div className="about__skillItem">
-          <div className="about__imgBox">
-            <img src="#" alt="" className="about__icon" />
-          </div>
-          <div className="about__skillContent">
-            <p className="about__txt">
-              HTML/ CSS
-            </p>
-            <div className="about__box">
-              <div>
-                
-              </div>
-              </div>
-          </div>
-        </div>
+        <ul className="about__list">
+        {dataSkill.map((el)=>(
+          <li className="about__el">
+            <BoxSkillComponent imgIcon={el.imageIcon} tag={el.tagName} widtha={el.widthSize} />
+          </li>
+        ))}
+        </ul>
       </section>
 
       <section className="about__tel">

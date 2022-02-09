@@ -16,13 +16,13 @@ function ProjetPerso() {
   const dataIntro = [
     "Mes projets personnel",
     "Voici ",
-    "les sites que j’ai crée lors de mes cours pour répondre aux défis donné par les profs. Ainsi tu peux voir mes réussites en solo mais aussi les projets plus fun fais avec des potes pour répondre à une problématique.",
+    "les différents projets que j'ai réaliser, ça va d'une intégration d'un design de boutique fictive à la création de petit site pour jouer avec des données, recréer des animations ou autres. Tu y retrouveras aussi des clones de projet en react.js et d'autre méthodes utilisé . ",
     "Tu ",
-    "trouveras des projets du premiers que j’ai réaliser à mon TFA ( Travail de Fin d’Année), la plupart de ces réalisations on été fait avec un bundler / package gulp.js et met en avant du HTML / JS /CSS & SCSS et il présente tous un mode responsive.",
+    "verras aussi quelque projet liées à mes cours mais qui ne sont pas forcément demandé par les profs. Et il y a mon premier platformer! 🕹️ ",
     " "
   ];
   /** to convert data tag name in lowerCase for */
-  const nameFilter = ["All", "JS", "TFA", "2022"];
+  const nameFilter = ["All", "GAME", "CLONE", ""];
 
   function countCard() {
     setTimeout(() => {
@@ -36,7 +36,7 @@ function ProjetPerso() {
   function clickData(e) {
     let radioNumb = e.target.value;
     let labels = document.querySelectorAll('.filter__label');
-    let LabelIndex = [labels[0].htmlFor, labels[1].htmlFor, labels[2].htmlFor, labels[3].htmlFor];
+    let LabelIndex = [labels[0].htmlFor, labels[1].htmlFor, labels[2].htmlFor];
     let labelName = labels[radioNumb].htmlFor;
     let labelNumb = LabelIndex.indexOf(labelName);
 
@@ -48,17 +48,16 @@ function ProjetPerso() {
     } else if (labelNumb === 1) {
       setCheckbase(false);
       //setDataFilter("js");
-      setDataLabel('js');
+      setDataLabel('game');
     } else if (labelNumb === 2) {
       setCheckbase(false);
       //setDataFilter("tfa");
-      setDataLabel("tfa");
-    } else if (labelNumb === 3) {
+      setDataLabel("clone");
+    } /*else if (labelNumb === 3) {
       setCheckbase(false);
       //setDataFilter("2022");
       setDataLabel('2022');
-
-    }
+    }*/
     countCard();
     labels.forEach(el => {
       el.classList.remove('filter__label--click');
@@ -68,9 +67,9 @@ function ProjetPerso() {
 
   if (dataLabel === "all") {
     var dataScolaire = dataProjet.filter(el => el.tag[0] === dataFilter);
-  } else if (dataLabel === 'js' || dataLabel === "tfa") {
+  } else if (dataLabel === 'js' || dataLabel === "game") {
     var dataScolaire = dataProjet.filter(el => el.tag[0] === dataFilter && el.tag[2] === dataLabel);
-  } else if (dataLabel === "2022") {
+  } else if (dataLabel === "js" || dataLabel === "clone") {
     var dataScolaire = dataProjet.filter(el => el.tag[0] === dataFilter && el.tag[1] === dataLabel);
   }
 

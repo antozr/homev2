@@ -1,0 +1,57 @@
+[
+    {
+        "id":0,
+        "tagName": "HTML5 / CSS3",
+        "imageIcon" : "/static/media/html.82a58c91d6bd051bbe3c0ac2792a555e.svg",
+        "widthSize": " 90%"
+    },
+    {
+        "id":1,
+        "tagName": "Js ES6",
+        "imageIcon" : "/static/media/js.a49d5f90e2b46f1ae9f63c99ad4f15dc.svg",
+        "widthSize": " 80%"
+    },
+    {
+        "id":2,
+        "tagName": "React.js",
+        "imageIcon" : "/static/media/react.b01d358995b93fd67b0057b7d9173b15.svg",
+        "widthSize": " 70%"
+    },
+    {
+        "id":3,
+        "tagName": "Redux",
+        "imageIcon" : "/static/media/redux.44e5aa1e7299955614094f23cd49f508.svg",
+        "widthSize": " 40%"
+    },
+    {
+        "id":4,
+        "tagName": "Vue.js",
+        "imageIcon" : "/static/media/vue.55e5b26763ff6f7ba3910bb782d17c8a.svg",
+        "widthSize": " 30%"
+    },
+    {
+        "id":6,
+        "tagName": "Git",
+        "imageIcon" : "/static/media/git.1ebbcb689cb3ca0343dbe954102a87b3.svg",
+        "widthSize": " 70%"
+    },
+    {
+        "id":7,
+        "tagName": "Firebase",
+        "imageIcon" : "/static/media/firebase.e19b23c1810f98b484b4f4b920e45e21.svg",
+        "widthSize": " 60%"
+    },
+    {
+        "id":8,
+        "tagName": "Design UX/UI",
+        "imageIcon" : "/static/media/design.ce3c05eab158e843115748e3a77326a8.svg",
+        "widthSize": " 80%"
+    },
+    {
+        "id":9,
+        "tagName": "Figma, Ps, Ae, Ai,...",
+        "imageIcon" : "/static/media/figma.3b0f21823a5ac460e17d6e8847f61f79.svg",
+        "widthSize": " 80%"
+    }
+    
+]
