@@ -8,20 +8,11 @@ import dataSkill from '../assets/data/dataSkill.json';
 import BoxSkillComponent from '../Components/BoxSkillComponent';
 
 /// importer les svg des icons & recuperer les liens par le front
-import html from '../assets/svg/html.svg';
-import jsi from '../assets/svg/js.svg';
-import reacts from '../assets/svg/react.svg';//
-import reduxs from '../assets/svg/redux.svg';
-import vues from '../assets/svg/vue.svg';
-import git from '../assets/svg/git.svg';//
-import firebase from '../assets/svg/firebase.svg';
-import designs from '../assets/svg/design.svg';
-import figma from '../assets/svg/figma.svg';
-import hand from '../assets/svg/hand_swipe.svg';
+
 
 function About() {
 
-  const dataIcon = [html, jsi, reacts,reduxs, vues, git, firebase , designs, figma, hand]
+
   
   const dataIntro = [
     "Moi en quelque mots",

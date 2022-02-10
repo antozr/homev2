@@ -11,7 +11,7 @@ function ProjetPerso() {
   
     
   var [checkBase, setCheckbase] = useState('true');
-  const [dataFilter, setDataFilter] = useState('projet perso');
+  const [dataFilter, setDataFilter] = useState('projet\u00a0perso');
   const [dataLabel, setDataLabel] = useState('all');
   const dataIntro = [
     "Mes projets personnel",
@@ -42,7 +42,7 @@ function ProjetPerso() {
 
     if (labelNumb === 0) {
       setCheckbase(true);
-      setDataFilter("projet perso");
+      setDataFilter("projet\u00a0perso");
       console.log(dataFilter);
       setDataLabel(labelName);
     } else if (labelNumb === 1) {

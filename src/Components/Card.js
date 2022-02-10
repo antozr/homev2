@@ -4,7 +4,7 @@ import './Card.scss';
 
 
 
-export default function Card({poster, title, intro, tag}) {
+export default function Card({poster, title, intro, tag, id}) {
 
     function gotToTop(e){
         e.preventDefault();
@@ -30,7 +30,7 @@ export default function Card({poster, title, intro, tag}) {
                     </p>
                 </li>
                 <li className="card__el" onClick={gotToTop}>
-                    <Link to={"/"} className='card__link' >
+                    <Link to={"/projet-scolaire/"+title} className='card__link' title={title}>
                         see project
                     </Link>
                 </li>

@@ -5,7 +5,7 @@ import dataCard from '../assets/data/projetDataDescription.json';
 import HomeTel from '../assets/svg/tel.svg';
 import './Home.scss';
 import '../Components/Card.scss';
-import { Link } from 'react-router-dom';
+
 import Card from '../Components/Card';
 
 function Home() {
