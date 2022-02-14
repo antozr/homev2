@@ -19,11 +19,18 @@
         letter-spacing: 0;
 
     }
-    &__btnClose{
+    &__btnHead{
+        border: none;
         position: relative;
         float: right;
         top: 16px;
         right: 16px;
+        background-color: #FEDAA0;
+        cursor: pointer;
+    }
+    &__btnClose{
+        position: relative;
+
         cursor: pointer;
     }
     &__sect{

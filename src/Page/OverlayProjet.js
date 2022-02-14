@@ -10,6 +10,7 @@ import Mars from '../assets/img/mars.jpg';
 
 function OverlayProjet({ title }) {
 
+
     console.log(title);
     const params = useParams();
     console.log(params.id);
@@ -19,6 +20,8 @@ function OverlayProjet({ title }) {
     console.log(paraFilter);
     var titleOverlay = params.id;
 
+    var elJSONOverlay = paraFilter.map((el) => (el));
+    console.log(elJSONOverlay[0].id);
 
     function Random(min, max) {
         min = Math.ceil(min);
@@ -26,75 +29,90 @@ function OverlayProjet({ title }) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     };
     var alpha = Random(0, 11);
+    let alphaDif = elJSONOverlay[0].id;
+    if (alpha === alphaDif) {
+        alpha++;
+        console.log(alpha);
+    };
 
-    var elList = paraFilter.map((el) => (el.title, el.intro));
-    console.log(elList);
+    function closeOverlay (){
+        /// play anilation to close overplay and after go to de location. Script la fermeture. 
+        window.location=(localStorage.getItem('oldPageProject'));
+    }
+
+
+
+    setTimeout(() => {
+        if (elJSONOverlay[0].txt5 === "" || elJSONOverlay[0].txt5 === " ") {
+            document.getElementById('txt5').innerHTML = "hello";
+            document.getElementById('txt5').style.display = 'none';
+        }
+    }, 10);
 
     return (
         <div className='overlay'>
             <div className="overlay__head">
-                <img src={btnClose} alt="" className="overlay__btnClose" />
+                <button className='overlay__btnHead' onClick={closeOverlay}> 
+                    <img src={btnClose} alt="" className="overlay__btnClose" />
+                </button>
+
             </div>
             <HeadPage title={titleOverlay + "☕"} />
-            hello
-            {paraFilter.map((el) => (el.title, el.intro))}
-
-
             <section className="overlay__sect">
                 <h2 className="home__title home__title--2 overlay__title">
-                {paraFilter.map((el) => (el.sousTitre1))}
+                    {elJSONOverlay[0].sousTitre1}
                 </h2>
                 <p className="project__txt overlay__txt">
-                <span className='overlay__txtSpan'></span>
-                {paraFilter.map((el) => (el.txt1))}
+                    <span className='overlay__txtSpan'></span>
+                    {elJSONOverlay[0].txt1}
                 </p>
                 <a href="http://#" target="_blank" rel="noopener noreferrer" className="overlay__link">
                     <p>
-                    Lire mon analyse 
+                        Lire mon analyse
                     </p>
                 </a>
                 <p className="project__txt overlay__txt">
                     <span className='overlay__txtSpan'></span>
-                    {paraFilter.map((el) => (el.txt2))}
+                    {elJSONOverlay[0].txt2}
                 </p>
                 <img src={Mars} alt="" className="overlay__img" />
             </section>
 
             <section className="overlay__sect">
                 <h2 className="home__title home__title--2 overlay__title">
-                {paraFilter.map((el) => (el.sousTitre2))} 
+                    {elJSONOverlay[0].sousTitre2}
                 </h2>
                 <p className="project__txt overlay__txt">
-                <span className='overlay__txtSpan'></span>
-                {paraFilter.map((el) => (el.txt3))}
+                    <span className='overlay__txtSpan'></span>
+                    {elJSONOverlay[0].txt3}
                 </p>
                 <p className="project__txt overlay__txt">
                     <span className='overlay__txtSpan'></span>
-                    {paraFilter.map((el) => (el.txt4))}
+                    {elJSONOverlay[0].txt4}
                 </p>
-                <p className="project__txt overlay__txt">
+                <p className="project__txt overlay__txt" id='txt5'>
                     <span className='overlay__txtSpan'></span>
-                    {paraFilter.map((el) => (el.txt5))}
+                    {elJSONOverlay[0].txt5}
                 </p>
                 <img src={Mars} alt="" className="overlay__img" />
             </section>
 
             <section className="overlay__sect">
                 <h2 className="home__title home__title--2 overlay__title">
-                {paraFilter.map((el) => (el.sousTitre3))} 
+                    {elJSONOverlay[0].sousTitre3}
                 </h2>
                 <p className="project__txt overlay__txt">
-                <span className='overlay__txtSpan'></span>
-                {paraFilter.map((el) => (el.txt6))}
+                    <span className='overlay__txtSpan'></span>
+                    {elJSONOverlay[0].txt5}
                 </p>
                 <a href="http://#" target="_blank" rel="noopener noreferrer" className="overlay__link">
                     <p>
-                    Lire mon analyse 
+                        Voir la maquette
                     </p>
                 </a>
                 <a href="http://#" target="_blank" rel="noopener noreferrer" className="overlay__link">
                     <p>
-                    Lire mon analyse 
+                        Voir le projet
                     </p>
                 </a>
             </section>

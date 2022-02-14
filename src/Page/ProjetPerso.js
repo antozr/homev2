@@ -73,7 +73,7 @@ function ProjetPerso() {
     var dataScolaire = dataProjet.filter(el => el.tag[0] === dataFilter && el.tag[1] === dataLabel);
   }
 
-
+  localStorage.setItem('oldPageProject', window.location.href);
   countCard();
 
   return (
