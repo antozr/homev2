@@ -9,7 +9,19 @@
         ],
         "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
         "title": "Hello\u00a0 word",
-        "intro": "Voici mon premier site, une réalisation en deux pages, une première expérience dans cette immense monde qu'est le devellopement web. "
+        "intro": "Voici mon premier site, une réalisation en deux pages, une première expérience dans cette immense monde qu’est le développement web.",
+        "sousTitre1": "Le premier projet",
+        "sousTitre2": "Le code un autre monde",
+        "sousTitre3": "La consultation",
+        "txt1": "Le premier projet que j’ai réalisé de A à Z, avec du recul ce n’est pas le meilleur, mais ce fut la première pierre que j’ai mis pour moi avancer dans cet univers. Ce premier projet, un Hello World, est la base, mais il a été agrémenter d’une fonctionnalité qui est utile à pas mal de monde, la possibilité de mettre ou non un dark mode. ",
+        "txt2": "Le visuel est pas l’un des plus beaux, mais à mes commencements les notions de design et de code était proche de 0. Mais à la fin j’ai quand même réussi à mettre en place un système de design basé sur une grille irrégulière, avoir un design ( plus ou moins ) constant sur les 2 pages et intégrer les liens comme il faut. ",
+        "txt3": "Pour réaliser le code j’ai utilisé de l’HTML, CSS et du JS, les 3 composants de base pour un site statique. La structure de l’HTML est basique, mais je l’ai fait en suivant les règles BEM, pour me faciliter la tâche en CSS afin d’appliquer les styles ainsi que tous les autres petites animations plus facilement.",
+        "txt4": "Pour le JavaScript, il n’est pas très étendu mais devait répondre à deux demande, insérer la date de l’année actuel et aussi créer un changer de thème, ici un dark mode. Pour se faire j’ai utilisé les différentes balise css sur les classes pour appliquer ou non le dark mode. Et il y a aussi l’utilisation du localStorage pour conserver l’état du mode à chaque changement et quand l’utilisateur revient dessus par après. ",
+        "txt5": "",
+        "txt6": "Tu peux retrouver ce premier projet en ligne et si tu es curieux je te laisse accès au design qui m’a permis de faire cette intégration.",
+        "link1": "",
+        "link2": "",
+        "link3": ""
     },
     {
         "id": 1,
@@ -21,7 +33,19 @@
         ],
         "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
         "title": "Iolce",
-        "intro": "Le savoir ce transmet, et les conférences en sont aussi un vecteur, ici après le visionnage d'une conférence de Tantek Çelik voici mon travail de présentation sur ces propos."
+        "intro": "Le savoir ce transmet, et les conférences en sont aussi un vecteur, ici après le visionnage d'une conférence de Tantek Çelik voici mon travail de présentation sur ces propos.",
+        "sousTitre1": "Une expérience personnelle ?",
+        "sousTitre2": "La création de mon expression",
+        "sousTitre3": "Le retour d'expérience, le veut tu ?",
+        "txt1": "Suite au visionnage de la conférence de Tantek Çelik , avec d’autre cammarade nous avons vus, eu une ouverture de nos esprits sur notre identité virtuele, que beaucoup de personnes n’en nont pas, où croie en avoir une « grace » aux réseaux sociaux qui donne une mauvaise image de sa vie virtuelle qui ne nous appartient pas. ",
+        "txt2": "Suite à cette conférence, on a donné nos points de vue entre nous sur nos ressentis, nos expériences avant ce point de pivot dans notre vision mais aussi sur la prise de conscience que notre vie virtuelle nous appartient et que si l’on veut se la constituer pleinement sans avoir de limite, il vaut mieux partir créer son propre univers que de donner sa vie à des réseaux sociaux. On nous a transmis les clefs pour pouvoir changer cela et c’est avec la transcririons de cette expérience qu’on vous la transmet. Car le savoir est bon pour tous.",
+        "txt3": "Pour répondre, avoir une continuité dans les propos de notre interlocuteur, j’ai réalisé ce projet avec pour objectif de transmettre mon expérience a tous ceux qui voudraient la lire. J’ai réalisé la structure de base en HTML ( validé par W3C) et mis en style par du CSS ainsi que pour les petites transitions et animations qui sont présentes. Comme pour tous mes projets je pars de la méthode BEM pour créer mes classes ainsi que pour organiser mes différents groupes d’éléments dans mon fichier. Ça me permet d’avoir une plus grande facilité dans l’écriture des styles.",
+        "txt4": "On retrouve aussi le JS qui est une partie importante dans ce projet, car il m’a permis de suivre les exigences mais aussi de lui donné un autre côté, un peu plus fun et plus personnelle. Dans un premier temps j’ai réalisé un dark mode classique qui vient changer/rajouter des class sur des éléments pour passé d’un mode à l’autre tout en gardant le dernier mode en cache pour l’appliquer lors de la prochaine visite et il m’a aussi servi pour ajouter l’année actuelle dans le footer. Et la création d’un menu spécifique pour la version mobile, le hamburger menu. ",
+        "txt5": "Ma touche a moi, je l’ai mise dans un autre mode qui est différent du dark mode, étant fan de la saga Star Wars, j’ai eu envie de mettre cette touche en plus dans le projet, pour qu’il ait une touche en plus, qui sorte de cette monotonie du simple dark mode qu’on retrouve partout mais pas un mode Star Wars ! Pour ce faire, à l’activation de l’étoile de la mort, tu peux changer les couleurs avec celle de la saga, surtout de la mythique introduction de chaque film. ",
+        "txt6": "Pour voir mon expérience, vouloir regarder celle de mes camarades mais aussi pour découvrir le Star Wars mode.",
+        "link1": "",
+        "link2": "",
+        "link3": ""
     },
     {
         "id": 2,
@@ -32,8 +56,20 @@
             "responsive"
         ],
         "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
-        "title": "RUX,\u00a0analyse\u00a0&\u00a0reconstruction",
-        "intro": "Avec le site de l'IMAL, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences... "
+        "title": "RUX, analyse\u00a0&\u00a0reconstruction",
+        "intro": "Avec le site de l'IMAL, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences... ",
+        "sousTitre1": "Rux, d’où viens-tu ? ",
+        "sousTitre2": "La création de mon expression",
+        "sousTitre3": "Voir ce rework",
+        "txt1": "Ce projet est né à la suite d’une analyse du site du BAM, où nous avons analysé et testé nous ce site et après on à analysé le retour d’expérience d’un de nos testeurs, pour en tirer des conclusions sur l’état de fonctionnement du site, sur ces points faible et sur les changements à apporter . ",
+        "txt2": "Après ce point-là, le but est d’analyser chaque composant qui sont présents, tous les éléments sont analysés en groupe et on dégage les points à changer sur ceux – ci et les points à changer. ",
+        "txt3": "Pour arranger, modifier les parties qui ne fonctionne pas dans ce site, j’ai commencé à travailler sur la refonte du projet en me basant sur les besoins des utilisateurs et de ce qui a été fait dans les expériences. ",
+        "txt4": "Avec ces informations je peux commencer à tester des composants pour remplacer ceux qui posent problème et les mettre en place dans un mockup figma pour les faire tester. Car l’avis de l’utilisateur va me permettre de savoir si les composants que j’ai créés pour remplacer vont fonctionner ou pas. ",
+        "txt5": "Une fois la validation faite par des testeurs j’ai confirmé ce mockup et j’ai continué à mettre en place tous les composants pour au final répondre à ma problématique de base. ",
+        "txt6": "Voila le projet fini, enfin si ça t’intéresse tu peux jeter un œil à ce rework mais aussi voir dans de plus grandes explications les modifications, les commentaires que j’ai écrits mais surtout mon retour d’expérience au complet et comment je suis parti d’un site pas les plus fonctionnelles et d’un retour utilisateur au mock-up que j’ai fais. ",
+        "link1": "",
+        "link2": "",
+        "link3": ""
     },
     {
         "id": 3,
@@ -44,8 +80,20 @@
             "responsive"
         ],
         "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
-        "title": "RUX,\u00a0analyse\u00a0&\u00a0reconstruction",
-        "intro": "Avec le site du BAM, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences ( les retex )."
+        "title": "RUX, analyse\u00a0&\u00a0reconstruction",
+        "intro": "Avec le site du BAM, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences ( les retex ).",
+        "sousTitre1": "",
+        "sousTitre2": "",
+        "sousTitre3": "",
+        "txt1": "",
+        "txt2": "",
+        "txt3": "",
+        "txt4": "",
+        "txt5": "",
+        "txt6": "",
+        "link1": "",
+        "link2": "",
+        "link3": ""
     },
     {
         "id": 4,
@@ -57,7 +105,19 @@
         ],
         "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
         "title": "DATA-Play,\u00a0du\u00a0fun\u00a0&\u00a0des\u00a0datas",
-        "intro": "Voici une analayse de données que j’ai réalisé avec des potes sur le thèmes des insultes. On vous montre la fréquences d’utilisations de ces bad-words en fonction de certains critère, curieux ? "
+        "intro": "Voici une analayse de données que j’ai réalisé avec des potes sur le thèmes des insultes. On vous montre la fréquences d’utilisations de ces bad-words en fonction de certains critère, curieux ? ",
+        "sousTitre1": "La data c’est chiant ? ",
+        "sousTitre2": "L’utilisation de la Data",
+        "sousTitre3": "Toi aussi tu utilises des insultes ?",
+        "txt1": "Pour répondre à cette question simple bien que compliqué je vous convie a lire le titre de notre projet ( et oui c’est un projet fait avec 3 autres camarades), DATA is FUCKING not always BEAUTIFUL. Une phrase vaut mieux que mille mots comme on dit. ",
+        "txt2": "Le but de ce projet fut de présenter les données qu’on a récoltés sur l’utilisation des insultes dans une population de personnes ( des ados à des personnes de plus de 35 ans) et on a trouvé une manière plutôt originale de les montrés et de données aussi la possibilité à toi de pouvoirs les comparés mais aussi de donné ton avis. ",
+        "txt3": "Pour la mettre en forme, on a décidé de mettre en place un système un peu hors des normes, aux lieux d’utiliser les formes standards des graphiques, on a repris les bases d’un camembert ( sa forme ) et on a utilisé les mots grossiers ( des insultes ) en anglais pour illustrés les différentes données qui sont présents avec différentes questions données. Et les insultes sont en formes de cercles qu’on affiche en fonctions de la proportion des réponses présent dans les données qu’on a. Et au final, on retrouve un overview, un récapitulatif de tous les données que tu pourras voir mais le plus c’est que tu pourras toi-même comparé les données que tu veux.",
+        "txt4": "Pour le design, on sait concerter tous ensemble et nous avons chacun proposé une version de ce projet en se basant sur la charte graphique mise en place ainsi qu’avec la forme de nos graphiques, c’est ainsi qu’on a constitué le design que tu peux voir sur le site, après cette partie qui a posé les grosses ligne du design on a donc scindé le groupe en deux, donc moi et un autre collègue on a commencé la création du code, où sur le projet j’ai réalisé la landing page ainsi que la page overview (le récapitulatif ) . Ainsi le projet allait bon vents avant de voir la remise. ",
+        "txt5": "La réalisation de la landing, j’ai utilisé la bibliothèque GSAP pour gérer les animations au scrolle avec les apparitions et les disparitions avec du JavaScript pour gérer les animations avec les entrées/sorties ainsi que pour enlever/rajouter les styles sur les div de contenus, et ça fonctionne même sur mobile. Il y a aussi une animation au-dessus du footer avec les différentes insultes présentes dans le projet, qui s’anime avec un scrolle infini et dans des centres contraires. Et pour l’overview, il y a beaucoup plus d’utilisation de js pour mettre en place les couleurs sur le pourcentage des données dans les cercles, le tout est une histoire de math. ",
+        "txt6": "Pour voir l’analyse des insultes, dans un cadre professionnel, va faire le test pour voir si tu es dans la moyenne.",
+        "link1": "",
+        "link2": "",
+        "link3": ""
     },
     {
         "id": 5,
@@ -69,7 +129,19 @@
         ],
         "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
         "title": "Data\u00a0play",
-        "intro": " "
+        "intro": " ",
+        "sousTitre1": "",
+        "sousTitre2": "",
+        "sousTitre3": "",
+        "txt1": "",
+        "txt2": "",
+        "txt3": "",
+        "txt4": "",
+        "txt5": "",
+        "txt6": "",
+        "link1": "",
+        "link2": "",
+        "link3": ""
     },
     {
         "id": 6,
@@ -81,7 +153,19 @@
         ],
         "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
         "title": "TFA,\u00a0Music’Owl",
-        "intro": "Voici mon TFA de 2021, c’est une landing-page ainsi qu’un mvp d’une application pour apprendre le solfège à des personnes amateurs ou bien qui non pas le temps de ce rendre à des cours classique. "
+        "intro": "Voici mon TFA de 2021, c’est une landing-page ainsi qu’un mvp d’une application pour apprendre le solfège à des personnes amateurs ou bien qui non pas le temps de ce rendre à des cours classique. ",
+        "sousTitre1": "Un service pour chaque",
+        "sousTitre2": "Du design à l’exploration",
+        "sousTitre3": "Tu veux t’amuser ?",
+        "txt1": "Le TFA, ce projet bien compliqué bien que simple sur le papier, on avait pour objectif de créer un service qui aiderait les personnes dans un domaine. Eh bien moi j’ai choisi d’aider les personnes qui le souhaitait dans l’apprentissage du solfège, ce choix intervenant à la suite de mon parcours en académie avec la vue du nombre d’élève qui partait chaque année pour diverse raison mais aussi à cause ( ou grâce ) au confinement où les stocks d’instrument fut vite achetée par des particuliers où la plupart n’avaient pas d’expérience. Donc mon idée a été simple, leur offrir le moyen de lire des partitions pour qu’ils puissent utiliser leur instrument en rejouant les musiques/mélodies qu’ils aiment.",
+        "txt2": "Mon objectif fut alors de créer une application sur la base des applications d’apprentissage qu’on retrouve déjà sur le marché mais en plaçant la musique et le solfège au centre. Chose qui n’y avait pas encore énormément en Belgique ou bien avec un design datant, donc j’avais encore du chemin à faire pour le réaliser mon projet.",
+        "txt3": "Pour bien débuter le projet et pouvoir réaliser le projet, qui est la réalisation d’un mvp (un produit minimum viable), j’ai décidé d’aller plus loin que la simple réalisation d’un design interactif, car ce que je préfère c’est de me dépasser, et là j’ai pris la décision de créer ce projet en véritable site interactif pour suivre ces cours, que je proposerais. Donc me voilà parti réaliser un design et un site d’apprentissage.",
+        "txt4": "La création fut un peu plus compliquée que prévu, car le premier problème qui se confronte à moi est le fait que je n’ai jamais créé de tel système, que l’intégration de partition sur un écran mobile va être compliqués et que tout doit être digeste pour un novice, pour ne pas lui donner l’envie de fuir après 5 min. Avec le travail du design sur papier puis sur figma j’arrive à quelques choses  de correcte et qui me sera facile d’intégrer.",
+        "txt5": "Maintenant il me reste le gros quitte ou double, coder la logique, le fait que chaque clic me donne une réponse différente. Je voulais vraiment créer un système en JS avec une base vierge en HTML, en venant y injecter les données et les informations en js, pour ne pas à avoir à tout faire en HTML ce qui aurait été plus long à gérer et ce qui n’est pas optimisé. J’avais cette optique d’optimisation du code, et pour une première le résultat fonctionne bien, c’est pas parfait mais ça fonctionne.",
+        "txt6": "Si tu veux jouer, apprendre les bases du solfège, tu es le bien venus à découvrir Music’owl.",
+        "link1": "",
+        "link2": "",
+        "link3": ""
     },
     {
         "id": 7,
@@ -141,7 +225,7 @@
             "responsive"
         ],
         "imgPoster": "https://camo.githubusercontent.com/85a2c29c195163cc6f52d3ac0eda82c3ca6c529f807fa4b814038b934f01eb53/687474703a2f2f696e746572696f722e6465766368616c6c656e6765732e696f2e616e746f6e692d64756d6f6e742e62652f6173736574732f696d672f436170747572652e504e47",
-        "title": "Interior\u00a0Consultant",
+        "title": "Interior Consultant",
         "intro": "Une présentation simple et épurrée avec un accès a un burger menu, qui reserve quelque surprise ^^. Pour montrer le travail d'un consultant en interrieur."
     },
     {
@@ -273,7 +357,7 @@
             "design"
         ],
         "imgPoster": "",
-        "title": "Mars\u00a0the\u00a0new\u00a0hope",
+        "title": "Mars\u00a0the new hope",
         "intro": "Voici une présentation de la planète Mars, avec un design simple qui présente les informations principales de cette planète sur différents points ainsi que les différentes missions effectués."
     },
     {
@@ -285,7 +369,7 @@
             "todo"
         ],
         "imgPoster": "",
-        "title": "React\u00a0todo\u00a0list",
+        "title": "React\u00a0todo list",
         "intro": "Une todo Reactive pour ne rien oublier! Enfin si on l'utilise correctement, cette todo est basée sur react et la gestion des évènements par les CTA. En tout cas il pourra suivre ces objectif. "
     },
     {
@@ -323,8 +407,7 @@
         "imgPoster": "",
         "title": "Aliensage\u00a0👽",
         "intro": "Voici une application de messagerie que je monte petit à petit dans un projet MERN (Mango Express React Node.js ), une messagerie avec un clin d'oeuil au alien car certains messages viennet de loin 👾. "
-    }
-    ,
+    },
     {
         "id": 27,
         "Key": 27,
@@ -335,6 +418,17 @@
         ],
         "imgPoster": "",
         "title": "Animathon\u00a0👺",
-        "intro": "Voici une application de gestion, de suivis des animés que toi ou d'autres utilisateur vont pouvoir les lister dans des playlist et ainsi les partagers avec leur amis. Il est encore en constuction 🚧.  "
+        "intro": "Voici une application de gestion, de suivis des animés que toi ou d'autres utilisateur vont pouvoir les lister dans des playlist et ainsi les partagers avec leur amis. Il est encore en constuction 🚧.  ",
+        "sousTitre1": "La PA$$ion ouais ",
+        "sousTitre2": "Comment le faire ?",
+        "sousTitre3": "Quand on l’aura ? ",
+        "txt1": "",
+        "txt2": "",
+        "txt3": "",
+        "txt4": "",
+        "txt6": "",
+        "link1": "",
+        "link2": "",
+        "link3":""
     }
 ]

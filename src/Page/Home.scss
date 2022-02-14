@@ -21,9 +21,10 @@
         font-size: 51px;
         line-height: 140%;
         color: #333333;
-        margin: 0 0 46px 124px;
+        margin: 0 0 46px 25.2vw ;
+        
         &--big{
-            word-wrap: break-word;
+           
             width: calc(100% - 124px);
         }
         &--2{

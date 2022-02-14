@@ -78,10 +78,10 @@ function Project() {
 
   return (
     <div className="project">
-      <HeadPage title={"Projet scolaire\u00a0🎒"} />
+      <HeadPage title={"Projet scolaire🎒"} />
       <IntroPageProjet dataIntro={dataIntro} />
       <section className="project__sect">
-        <h2 className="home__title home__title--2 home__title--project">
+        <h2 className="home__title home__title--2 home__title--project overlay__title">
           Les voicis
         </h2>
         <FilterBox clickData={clickData} checkbase={checkBase} dataNameLabel={nameFilter} />
