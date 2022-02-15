@@ -124,7 +124,7 @@ function OverlayProjet({ title }) {
                     Une&nbsp;envie&nbsp;rapide&nbsp;?
                 </h2>
                 <div className="home__rapidBox">
-                    <Card title={dataProjet[alpha].title} tag={dataProjet[alpha].tag[0]} poster={dataProjet[alpha].imgPoster} intro={dataProjet[alpha].intro} />
+                    <Card title={dataProjet[alpha].title} tag={dataProjet[alpha].tag[0]} poster={dataProjet[alpha].imgPoster} intro={dataProjet[alpha].intro} page={localStorage.getItem('pageData')} />
                 </div>
             </div>
 

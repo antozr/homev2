@@ -10,19 +10,19 @@ import Card from '../Components/Card';
 
 function Home() {
 
-    var alpha ;
+    var alpha;
     function Random(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min +1)) + min;
-      };
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    };
 
-      alpha = Random(0, 11);
-     var alpha2 = Random(0, 11);
-      console.log(alpha)
-      console.log(alpha2)
+    alpha = Random(0, 11);
+    var alpha2 = Random(0, 11);
+    console.log(alpha)
+    console.log(alpha2)
 
-
+    localStorage.setItem('oldPageProject', window.location.href);
     return (
         <div className="home">
             <div className="home__head">
@@ -52,13 +52,13 @@ function Home() {
                     Une&nbsp;envie&nbsp;rapide&nbsp;?
                 </h2>
                 <div className="home__rapidBox">
-                    <Card title={dataCard[alpha].title} tag={dataCard[alpha].tag[0]} poster={dataCard[alpha].imgPoster} intro={dataCard[alpha].intro} />
-                    <Card title={dataCard[alpha2].title} tag={dataCard[alpha2].tag[0]} poster={imageMars} intro={dataCard[alpha2].intro} /> 
+                    <Card title={dataCard[alpha].title} tag={dataCard[alpha].tag[0]} poster={dataCard[alpha].imgPoster} intro={dataCard[alpha].intro} page={""} />
+                    <Card title={dataCard[alpha2].title} tag={dataCard[alpha2].tag[0]} poster={imageMars} intro={dataCard[alpha2].intro} page={""}/>
                 </div>
             </div>
 
             <img src={HomeTel} alt="" className="home__tel" />
-            
+
         </div>
     )
 }

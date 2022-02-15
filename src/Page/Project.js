@@ -89,7 +89,7 @@ function Project() {
         <ul className="listCard">
           {dataScolaire.map((el) => (
             <li className="listCard__el">
-              <Card title={el.title} tag={el.tag[2]} poster={el.imgPoster} intro={el.intro} />
+              <Card title={el.title} tag={el.tag[2]} poster={el.imgPoster} intro={el.intro} page={"projet-scolaire/"}/>
             </li>
           ))}
         </ul>
