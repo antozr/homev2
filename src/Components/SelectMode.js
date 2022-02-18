@@ -25,13 +25,18 @@ function SelectMode() {
         },
     ];
 
+    function gotToTop(e){
+        
+        window.scrollTo(0,0);
+        
+    }
     return (
 
 
 
         <div className=" home__select">
             {dataLink.map((titre) => (
-                <Link to={titre.link} className="home__selctBox">
+                <Link to={titre.link} className="home__selctBox" onClick={gotToTop}>
                     <h2 className="home__title home__title--select">
                         {titre.titre}
                     </h2>

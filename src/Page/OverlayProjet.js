@@ -46,7 +46,11 @@ function OverlayProjet({ title }) {
         if (elJSONOverlay[0].txt5 === "" || elJSONOverlay[0].txt5 === " ") {
             document.getElementById('txt5').innerHTML = "hello";
             document.getElementById('txt5').style.display = 'none';
-        }
+        };
+        if (elJSONOverlay[0].txt2 === "" || elJSONOverlay[0].txt2 === " ") {
+            document.getElementById('txt2').innerHTML = "hello";
+            document.getElementById('txt2').style.display = 'none';
+        };
     }, 10);
 
     return (

@@ -23,11 +23,14 @@ function Home() {
     console.log(alpha2)
 
     localStorage.setItem('oldPageProject', window.location.href);
+
+    
+
     return (
         <div className="home">
             <div className="home__head">
                 <h1 className="home__title">
-                    Hello 👋 bienvenus dans mon univers
+                    Hello <span className='home__title--span'>👋</span> bienvenus dans mon univers
                 </h1>
             </div>
             <div className="home__cont">
@@ -35,7 +38,7 @@ function Home() {
                     Moi c’est anto aka anto_dev
                 </h2>
                 <p className="home__txt">
-                    Je suis un étudiant en web dev / design en DWT
+                    <span></span> Je suis un étudiant en web dev / design en DWT
                     ( à l’HEAJ ).
                     <br />
                     Tu vas pouvoir retrouver mon portfolio avec mes projets les plus fou comme les plus scolaires, en passant par les bases du web-dev à l’utilisation de framwork  et des petites applications personelle .
