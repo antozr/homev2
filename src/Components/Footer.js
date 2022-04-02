@@ -4,22 +4,23 @@ import { Link } from 'react-router-dom';
 import ListRS from './ListRS';
 function Footer() {
 
-    function gotToTop(e){
-        
-        window.scrollTo(0,0);
+    function gotToTop(e) {
+
+        window.scrollTo(0, 0);
         console.log(e);
-        let hrefData = e.target.href;
-        window.location(hrefData);
-            console.log(e.target.href);
+        // let hrefData = e.target.href;
+        // window.location(hrefData);
+        // console.log(e.target.href);
     }
+    
 
     return (
 
         <footer className="foot">
-            <h2 className="home__title home__title--foot">
+            <h2 className="home__title home__title--foot h1">
                 Merci d’être passé ^^
             </h2>
-            <ul className="foot__list">
+            <ul className="foot__list l1">
                 <li className="foot__el">
                     <Link to={'/'} className="foot__navLink" onClick={gotToTop}>
                         Home
@@ -45,71 +46,34 @@ function Footer() {
                         About
                     </Link>
                 </li>
-                <li className="foot__el">
+                {/* <li className="foot__el">
                     <Link to={'/credit'} className="foot__navLink" onClick={gotToTop}>
                         Crédit
                     </Link>
-                </li>
+                </li> */}
             </ul>
 
-            <div className="foot__rs">
+            <div className="foot__rs p1">
                 <ListRS />
-                
+
             </div>
 
-            <div className="foot__anim">
-                <p className="foot__txtAnim">
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
-                    <span>
-                        anto_dev
-                    </span>
+            <div className="foot__anim d1">
+                <p className="foot__txtAnim ">
+                    anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev                     anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev
+
                 </p>
                 <p className="foot__txtAnim foot__txtAnim--reverse">
-                    anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev
+                    anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev                     anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev
+
                 </p>
                 <p className="foot__txtAnim">
-                    anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev
+                    anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev                     anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev
+
                 </p>
                 <p className="foot__txtAnim foot__txtAnim--reverse">
-                    anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev
+                    anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev                     anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_devanto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev anto_dev
+
                 </p>
             </div>
         </footer>

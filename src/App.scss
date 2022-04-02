@@ -9,6 +9,7 @@
 }
 
 a{
-  cursor: url('./assets/svg/hand_swipe.svg'), auto;
+  //cursor: url('./assets/svg/hand_swipe.svg'), auto;
+  cursor: pointer;
   /*le faire bouger en fonction de sa position par rapport au bouton */
 }

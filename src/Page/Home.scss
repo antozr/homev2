@@ -3,7 +3,7 @@
 
 
 .home{
-
+    width: 100vw;
 
     &__head{
 
@@ -85,7 +85,7 @@
         margin: 91px 0 0 0;
         width: calc(100% - 56px);
         padding: 0 28px;
-
+        position: relative;
         &--rapide{
             width: 100%;
             margin: 160px 0 0 0 ;
@@ -115,11 +115,22 @@
         flex-direction: column;
         justify-content: space-between;
         text-decoration: none;
-
+        transition: 0.3s;
         &:nth-child(1){
             min-height: 366px;
             height: 40%;
             background-color: #FABE79;
+        }
+        &:hover{
+            transition: 0.3s;
+            background-color: #E5E2C2;
+            &:nth-child(1){
+                background-color: #FFA53E;
+            }
+            &>div>svg{
+                transform: translateX(60px);
+                transition: 0.3s ease-in;
+            }
         }
     }
     &__rapidBox{
@@ -129,6 +140,9 @@
     }
     &__tel{
             margin: 121px 0 38px 10vw;
+    }
+    &__decor{
+        display: none;
     }
 }
 
@@ -167,12 +181,201 @@
             padding: 0 20vw;
         }
         &__tel{
-            margin: 121px 0 38px 28vw;
+            margin: 121px 0 38px 37vw;
+            //margin: 121px auto 0 auto;
     }
 
     }
 }
 
+@media(min-width:1100px){
+    .home{
+        &__title{
+            font-size: 90px;
+            line-height: 120%;
+            
+            &--big{
+               
+                width: calc(100% - 124px);
+            }
+            &--2{
+                font-size: 38px;
+            }
+            &--rapid{
+                margin: 0 0 0px 24vw;
+                font-size: 28px;
+    
+            }
+            &--select{
+                font-size: 28px;
+                margin: 0 0 46px 28px;
+            }
+            &--right{
+                text-align: end;
+                font-size: 28px;
+                margin: 51px 0 0 0 ;
+            }
+            &--foot{
+                margin: 0 0 0 0px;
+                text-align: center;
+                width:calc(100% - 11.5vw);
+                font-size: 28px;
+            }
+            &--rs{
+                margin: 0 0 0 1vw;
+                font-size: 28px;
+            }
+            &--project{
+               // margin: 0 0 38px 25.2vw ;
+               margin: 0 0 38px 37.2vw;
+            }
+            &--span{
+                transition: 0.3s;
+                animation: moveHand 2s infinite;
+                transform: rotate(-40deg);
+                display: inline-block;
+                width: 55px;
+                height: 55px;
+                transform-origin:90% 90%;
+                
+            }
+            &--noMarge{
+                margin: 0 0 38px 0;
+            }
+        
+        }
+        &__select{
+            width: 99.5vw;
+            //max-width: 99vw;
+            height: 80vh;
+            max-height: 780px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows:390px 195px 195px;
+            // grid-template-rows: 40vh 20vh 20vh ;
+            grid-template-areas: 
+            "b1 b2"
+            "b1 b3"
+            "b1 b4" ;
+            margin: 281px  0 0 0 ;
+            padding: 0;
+    
+        }
+        &__decor{
+            display: block;
+            position: absolute;
+            top: 25vh;
+            left: 3.5vw;
+            transition: 0.4s;
+            &:hover{
+                &>path:nth-child(3){
+                    fill: #FABE79;
+                    stroke: none;
+                    transition: 0.8s;
+                    transform: scaleX(0.22) translateX(13px);
+                }
+                &>path:nth-child(4){
+                    fill: #FDFADA;
+                    stroke: none;
+                    transition: 0.8s;
+                    transition-delay: 0.6s;
+                    transform: translateX(-3px) scaleX(4.6);
+                }
+                &>path:nth-child(5){
+                    fill: #E5E2C2;
+                    stroke: none;
+                    transition: 0.8s;
+                    transition-delay: 0.2s;
+                    transform: translateY(-353px) scaleY(2.8);
+                }
+            }
+        }
+        &__selctBox{
+            //width: 49.45vw;
+            
+            height: 100%;
+            width: 100%;
+            transition: 0.3s;
+            &:nth-child(1){
+                grid-area: b1;
+                height: 100%;
+                max-height: 780px;
+            }
+            &:nth-child(2){
+                grid-area: b2;
+                max-height: 390px;
+                height: 94%;
+            }
+            &:nth-child(3){
+                grid-area: b3;
+                height: 89%;
+                max-height: 195px;
+            }
+            &:nth-child(4){
+                grid-area: b4;
+                max-height: 195px;
+            }
+            
+        }
+
+        &__cont{
+            margin: 151px 0 0 0;
+            width: calc(100% - 23vw);
+            padding: 0 11.4vw;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            row-gap: 51px;
+            grid-template-rows: auto ;
+            grid-template-areas: 
+            ". . h1 h1 h1 h1"
+            ". . p1 p1 p1 p1"
+            ". . d1 d1 d1 d1";
+
+            &>h2{
+                grid-area: h1;
+                margin: 0;
+            }
+            &>p:nth-child(2){
+                grid-area: p1;
+
+                &>span{
+                    margin: 0;
+                }
+            }
+            &>p:nth-child(3){
+                grid-area: d1;
+                margin: 0;
+                text-align: start;
+            }
+    
+            &--rapide{
+                width: 100%;
+                max-height: 590px;
+                margin: 141px 0 0 0 ;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+
+            }
+        }
+        &__rapidBox{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            column-gap: 21px;
+        }
+
+    }
+    
+    .select{
+
+        &__box{
+            margin: 0 28px 0 24vw;
+        }
+    }
+}
 
 @keyframes moveHand {
     0%{

@@ -87,3 +87,34 @@
         border-radius: 10px;
     }
 }
+
+
+@media(min-width:1100px){
+    .about{
+        &__tel{
+        
+            width: 358px;
+            height: 490px;
+            position: absolute;
+            top: 88vh;
+            left: 58px;
+            
+        }
+        &__img{
+            margin: 150px auto 0 91px ;
+        }
+        &__list{
+            width: calc(100vw - 23vw);
+            margin: 36px  11.5vw;
+            height: 233px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            column-gap: 21px;
+        }
+        &__skill{
+            margin: 120px 0 ;
+        }
+       
+    }
+}

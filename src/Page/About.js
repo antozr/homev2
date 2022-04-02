@@ -6,13 +6,25 @@ import doghat from '../assets/svg/doghat.svg';
 import './About.scss';
 import dataSkill from '../assets/data/dataSkill.json';
 import BoxSkillComponent from '../Components/BoxSkillComponent';
+// Data for icon
 
+import figma from '../assets/svg/figma.svg';
+import git from '../assets/svg/git.svg';
+import vue from '../assets/svg/vue.svg';
+import html from '../assets/svg/html.svg';
+import redux from '../assets/svg/redux.svg';
+import react from '../assets/svg/react.svg';
+import js from '../assets/svg/js.svg';
+import firebase from '../assets/svg/firebase.svg';
+import design from '../assets/svg/design.svg';
+//import js from '../assets/svg/js.svg';
 /// importer les svg des icons & recuperer les liens par le front
 
 
 function About() {
 
-
+  const iconData = [figma, git, vue, html, redux, react, js, firebase,design]
+  console.log(iconData);
   
   const dataIntro = [
     "Moi en quelque mots",
@@ -35,7 +47,7 @@ function About() {
         <h2 className="home__title home__title--2 home__title--project ">
           Mon skill
         </h2>
-        <p className="project__txt">
+        <p className="project__txt project__txt--aboutTxt">
           <span>
             C’est
           </span>
@@ -52,8 +64,8 @@ function About() {
       </section>
 
       <section className="about__tel">
-        <ListRs />
-        <img src={doghat} alt="" className="about__img" />
+        <ListRs className="about__listTel" />
+        <img src={doghat} alt="Two mobile with my logo, a dog with a hat. Deux gsm avec mon logo en couleur et en gris, un chien avec un chapeau." className="about__img" />
       </section>
     </div>
   )

@@ -50,7 +50,7 @@
     {
         "id":9,
         "tagName": "Figma, Ps, Ae, Ai,...",
-        "imageIcon" : "/static/media/figma.3b0f21823a5ac460e17d6e8847f61f79.svg",
+        "imageIcon" : "./static/media/figma.3b0f21823a5ac460e17d6e8847f61f79.svg",
         "widthSize": " 80%"
     }
     

@@ -76,3 +76,110 @@
         }
     }
 }
+.h1{
+    grid-area: h1;
+}
+.t1{
+    grid-area: t1;
+}
+.t2{
+    grid-area: t2;
+}
+.t3{
+    grid-area: t3;
+}
+.b1{
+    grid-area: b1;
+}
+.im{
+    grid-area: im;
+}
+
+@media(min-width:1100px){
+    .overlay{
+
+        &__sect{
+            width: calc(100% - 20vw);
+            max-width: 1152px;
+            margin:160px  auto 0 auto;
+            padding: 0 10vw;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            column-gap: 21px;
+            row-gap: 16px;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "h1 h1 h1 im im im"
+            "t1 t1 t1 im im im"
+            "b1 b1 b1 im im im"
+            "t2 t2 t2 im im im" ;
+            &--reverse{
+                grid-template-areas:
+                " im im im h1 h1 h1"
+                " im im im t1 t1 t1"
+                " im im im b1 b1 b1"
+                " im im im t2 t2 t2" ;
+            }
+            &--f12{
+                grid-template-areas:
+                "h1 h1 h1  . .  . "
+                "t1 t1 t2 t2 t2 . "
+                "t1 t1 b1 b1 b1 . " ;
+                
+            }
+        }
+        &__txtSpan{
+            margin: 0 0 0 18.2vw;
+    
+        }
+        &__txt{
+            margin: 0;
+            &>span{
+                margin: 0;
+                padding: 0;
+            }
+        }
+        &__title{
+            // margin: 0 0 38px -28px;
+            // padding: 0 0 0 25.2vw;
+            margin: 0 0 0 0 ;
+            padding: 0 0 0 0;
+        }
+        &__img{
+            width: calc(100% + 56px);
+            margin: 0;
+            padding: 0;
+            height: 378px;
+            &--reverse{
+                margin: 0 0 0 -56px;
+            }
+        }
+        &__link{
+            font-family: 'Basement';
+            font-size: 14px;
+            line-height: 100%;
+            color: #333333;
+            text-align: center;
+            text-decoration: none;
+            background-color:#FABE79 ;
+            border-radius: 21px;
+            width: 100%;
+            height: 51px;
+            display: block;
+            margin:  0;
+            &:last-child{
+                background-color: #FEDAA0;
+            }
+            &>p{
+                padding: 21px 0 ;
+            }
+        }
+        &__contRapid{
+            width: 640px;
+            margin: 160px auto;
+            &>div{
+                padding: 0;
+            }
+        }
+    }
+}
