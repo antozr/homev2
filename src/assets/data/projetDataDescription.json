@@ -7,7 +7,7 @@
             "2021",
             "responsive"
         ],
-        "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
+        "imgPoster": "/static/media/helloWorldCover.f7bcbe6bb0e63a72b79f.png",
         "title": "Hello\u00a0 word",
         "intro": "Voici mon premier site, une réalisation en deux pages, une première expérience dans cette immense monde qu’est le développement web.",
         "sousTitre1": "Le premier projet",
@@ -19,9 +19,10 @@
         "txt4": "Pour le JavaScript, il n’est pas très étendu mais devait répondre à deux demande, insérer la date de l’année actuel et aussi créer un changer de thème, ici un dark mode. Pour se faire j’ai utilisé les différentes balise css sur les classes pour appliquer ou non le dark mode. Et il y a aussi l’utilisation du localStorage pour conserver l’état du mode à chaque changement et quand l’utilisateur revient dessus par après. ",
         "txt5": "",
         "txt6": "Tu peux retrouver ce premier projet en ligne et si tu es curieux je te laisse accès au design qui m’a permis de faire cette intégration.",
-        "link1": "",
+        "linkTxt": "Voir mon projet",
+        "link1": "http://antoni-dumont.be/projets/helloworld/",
         "link2": "",
-        "link3": ""
+        "link3": "http://antoni-dumont.be/projets/helloworld/"
     },
     {
         "id": 1,
@@ -43,9 +44,10 @@
         "txt4": "On retrouve aussi le JS qui est une partie importante dans ce projet, car il m’a permis de suivre les exigences mais aussi de lui donné un autre côté, un peu plus fun et plus personnelle. Dans un premier temps j’ai réalisé un dark mode classique qui vient changer/rajouter des class sur des éléments pour passé d’un mode à l’autre tout en gardant le dernier mode en cache pour l’appliquer lors de la prochaine visite et il m’a aussi servi pour ajouter l’année actuelle dans le footer. Et la création d’un menu spécifique pour la version mobile, le hamburger menu. ",
         "txt5": "Ma touche a moi, je l’ai mise dans un autre mode qui est différent du dark mode, étant fan de la saga Star Wars, j’ai eu envie de mettre cette touche en plus dans le projet, pour qu’il ait une touche en plus, qui sorte de cette monotonie du simple dark mode qu’on retrouve partout mais pas un mode Star Wars ! Pour ce faire, à l’activation de l’étoile de la mort, tu peux changer les couleurs avec celle de la saga, surtout de la mythique introduction de chaque film. ",
         "txt6": "Pour voir mon expérience, vouloir regarder celle de mes camarades mais aussi pour découvrir le Star Wars mode.",
-        "link1": "",
-        "link2": "",
-        "link3": ""
+        "linkTxt": "Voir mon projet",
+        "link1": "http://antoni-dumont.be/projets/iolce/",
+        "link2": "https://www.figma.com/file/dNePUdldQauLab7D2v2IOw/rux?node-id=0%3A1",
+        "link3": "http://antoni-dumont.be/projets/iolce/"
     },
     {
         "id": 2,
@@ -55,7 +57,7 @@
             "2021",
             "responsive"
         ],
-        "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
+        "imgPoster": "/static/media/rux21Cover.e5889cbfa01f8fd4a0f0.jpg",
         "title": "RUX, analyse\u00a0&\u00a0reconstruction",
         "intro": "Avec le site de l'IMAL, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences... ",
         "sousTitre1": "Rux, d’où viens-tu ? ",
@@ -67,9 +69,10 @@
         "txt4": "Avec ces informations je peux commencer à tester des composants pour remplacer ceux qui posent problème et les mettre en place dans un mockup figma pour les faire tester. Car l’avis de l’utilisateur va me permettre de savoir si les composants que j’ai créés pour remplacer vont fonctionner ou pas. ",
         "txt5": "Une fois la validation faite par des testeurs j’ai confirmé ce mockup et j’ai continué à mettre en place tous les composants pour au final répondre à ma problématique de base. ",
         "txt6": "Voila le projet fini, enfin si ça t’intéresse tu peux jeter un œil à ce rework mais aussi voir dans de plus grandes explications les modifications, les commentaires que j’ai écrits mais surtout mon retour d’expérience au complet et comment je suis parti d’un site pas les plus fonctionnelles et d’un retour utilisateur au mock-up que j’ai fais. ",
+        "linkTxt": "Voir mon analyse",
         "link1": "",
-        "link2": "",
-        "link3": ""
+        "link2": "https://www.figma.com/file/dNePUdldQauLab7D2v2IOw/rux?node-id=0%3A1",
+        "link3": "http://antoni-dumont.be/projets/rux/"
     },
     {
         "id": 3,
@@ -79,7 +82,7 @@
             "2022",
             "responsive"
         ],
-        "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
+        "imgPoster": "/static/media/rux22cover.1cf95ce4e614e7022498.png",
         "title": "RUX, analyse\u00a0&\u00a0reconstruction",
         "intro": "Avec le site du BAM, une nouvelle air c’est ouvert à nous, mais pour pouvoir y aller il fallait retravailler l’aspect visuel et pour se faire se baser sur des retours d’expériences ( les retex ).",
         "sousTitre1": "Rux, d’où viens-tu ? ",
@@ -91,9 +94,10 @@
         "txt4": "Avec ces informations je peux commencer à tester des composants pour remplacer ceux qui posent problème et les mettre en place dans un mockup figma pour les faire tester. Car l’avis de l’utilisateur va me permettre de savoir si les composants que j’ai créés pour remplacer vont fonctionner ou pas. ",
         "txt5": "Une fois la validation faite par des testeurs j’ai confirmé ce mockup et j’ai continué à mettre en place tous les composants pour au final répondre à ma problématique de base.",
         "txt6": "Voila le projet fini, enfin si ça t’intéresse tu peux jeter un œil à ce rework mais aussi voir dans de plus grandes explications les modifications, les commentaires que j’ai écrits mais surtout mon retour d’expérience au complet et comment je suis parti d’un site pas les plus fonctionnelles et d’un retour utilisateur au mock-up que j’ai fais.",
+        "linkTxt": "Voir mon analyse",
         "link1": "",
-        "link2": "",
-        "link3": ""
+        "link2": "https://www.figma.com/file/w3h2wkFvr29x4USWAgpK9D/Create__New__Rux__22?node-id=0%3A1",
+        "link3": "http://antoni-dumont.be/projets/rethinking-ux/"
     },
     {
         "id": 4,
@@ -103,7 +107,7 @@
             "2021",
             "js"
         ],
-        "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
+        "imgPoster": "/static/media/dataplayCover.b5d9e0ade749e5e909cd.png",
         "title": "DATA-Play,\u00a0du\u00a0fun\u00a0&\u00a0des\u00a0datas",
         "intro": "Voici une analayse de données que j’ai réalisé avec des potes sur le thèmes des insultes. On vous montre la fréquences d’utilisations de ces bad-words en fonction de certains critère, curieux ? ",
         "sousTitre1": "La data c’est chiant ? ",
@@ -115,9 +119,10 @@
         "txt4": "Pour le design, on sait concerter tous ensemble et nous avons chacun proposé une version de ce projet en se basant sur la charte graphique mise en place ainsi qu’avec la forme de nos graphiques, c’est ainsi qu’on a constitué le design que tu peux voir sur le site, après cette partie qui a posé les grosses ligne du design on a donc scindé le groupe en deux, donc moi et un autre collègue on a commencé la création du code, où sur le projet j’ai réalisé la landing page ainsi que la page overview (le récapitulatif ) . Ainsi le projet allait bon vents avant de voir la remise. ",
         "txt5": "La réalisation de la landing, j’ai utilisé la bibliothèque GSAP pour gérer les animations au scrolle avec les apparitions et les disparitions avec du JavaScript pour gérer les animations avec les entrées/sorties ainsi que pour enlever/rajouter les styles sur les div de contenus, et ça fonctionne même sur mobile. Il y a aussi une animation au-dessus du footer avec les différentes insultes présentes dans le projet, qui s’anime avec un scrolle infini et dans des centres contraires. Et pour l’overview, il y a beaucoup plus d’utilisation de js pour mettre en place les couleurs sur le pourcentage des données dans les cercles, le tout est une histoire de math. ",
         "txt6": "Pour voir l’analyse des insultes, dans un cadre professionnel, va faire le test pour voir si tu es dans la moyenne.",
-        "link1": "",
-        "link2": "",
-        "link3": ""
+        "linkTxt": "Voir mon projet",
+        "link1": "http://antoni-dumont.be/projets/dataplay2021/",
+        "link2": "https://www.figma.com/file/2UXr2gdAAZ8wr5pY5ugjOJ/Bad-words",
+        "link3": "http://antoni-dumont.be/projets/dataplay2021/"
     },
     {
         "id": 5,
@@ -127,7 +132,7 @@
             "2022",
             "responsive"
         ],
-        "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
+        "imgPoster": "/static/media/datahubCover.8c2409d73a91f10e4c90.png",
         "title": "Data\u00a0play, Data\u00a0hub",
         "intro": "Il y a des tonnes de données sur le net, mais avec mes potes, on voulait créer une expérience sur un thème un peu mal vu car dit vulgaire, mais qui touche tout le monde. On est parti sur les données de PornHub. Curieux ? ",
         "sousTitre1": "La data c’est chiant ? ",
@@ -135,13 +140,14 @@
         "sousTitre3": "Toi aussi tu regarde du hub😏 ? ",
         "txt1": "Pour répondre à cette question, oui ça peut être chiant mais entre nous, tu as déjà été sur phub non ? Enfin peut-importe ta réponse, tout est anonymes.",
         "txt2": "On a choisi comme data, les données d’un site très peu connu qui se nomme p*rnhub. Car on voulait se comparer et voir les tendances, ce que les gens font le plus et recherche le plus, car lors de nos recherches on a pu être surpris par plusieurs données. Avec mes comparses nous avons donc exploré cet univers et créer notre expérience autour. ",
-        "txt3": "",
-        "txt4": "",
-        "txt5": "",
-        "txt6": "",
-        "link1": "",
-        "link2": "",
-        "link3": ""
+        "txt3": "Pour la mise en place des données, pour les montrés sous une forme où il nous serait plus facile de comprendre au premier coup d’œil ce qu’on y trouve et ce qu’on veut faire. Nous sommes partis sur deux sortes de graphiques : des graphiques sous formes de sphères et un autre sous forme plus classique, en barre ( servant plus à une comparaison pour le temps). Pour ce faire, on voulait rester dans le thème de l’érotisme, mais sans être vulgaires, en jouant avec cette limite, c’est pour ça que ces représentations on un côté un peu … coquins, enfin si tu arrives à le voir . ",
+        "txt4": " Ainsi pour le design, on est parti sur la charte graphique de pornhub, en la pimpant un peu à notre sauce, car on voulait faire un travail sur ça mais sans le copier totalement. On a voulu jouer avec le second degré, en jouant sur le côté décaler et le faire ressentir dans les visuels ainsi que dans les illustrations et les textes qu’on allait y mettre. Car même si on voulait quelques choses de simples, on voulait faire quelque choses qu’on pourrait changer, qui ne serait pas statique dans le temps et en fonctions des choix de l’utilisateur. C’est pour quoi on à jouer avec le JS pour le rendre à l’image du testeur. ",
+        "txt5": "Pour le code de l’expérience, j’ai créé des templates en HTML qui contenait une valeur de base à laquelle je viendrais la changer en JS avec les données de la personne, qui auront des répercussions sur diverses éléments. Comme les choix de la personne se comportent différemment pour chaque mais reste une comparaison, j’ai fait des conditions pour créer des modifications dans la page, ainsi c’est la personne qui aura ça propre page à lui et ces modifications auront une répercutaient sur la mise en page des graphiques, sur la taille des sphères, leur couleur, leur valeur mais aussi sur les textes. Ces derniers réagissent aussi en fonction de certaines conditions qui sont posées pour donner quelques choses de plus proches à la personne. ",
+        "txt6": "Toi aussi tu es curieux de savoir si tu es dans la moyenne ? De vouloir te comparer aux autres utilisateurs de ce site on ne peut plus mondiale. Alors lance-toi dans cette aventure, tu ne seras pas dépaysé. ",
+        "linkTxt": "Voir mon projet",
+        "link1": "http://antoni-dumont.be/projets/dataplay/",
+        "link2": "#",
+        "link3": "http://antoni-dumont.be/projets/dataplay/"
     },
     {
         "id": 6,
@@ -151,7 +157,7 @@
             "2021",
             "tfa"
         ],
-        "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
+        "imgPoster": "/static/media/musicowlCover.de03d7284fdf95af3083.jpg",
         "title": "TFA,\u00a0Music’Owl",
         "intro": "Voici mon TFA de 2021, c’est une landing-page ainsi qu’un mvp d’une application pour apprendre le solfège à des personnes amateurs ou bien qui non pas le temps de ce rendre à des cours classique. ",
         "sousTitre1": "Un service pour chaque",
@@ -163,9 +169,10 @@
         "txt4": "La création fut un peu plus compliquée que prévu, car le premier problème qui se confronte à moi est le fait que je n’ai jamais créé de tel système, que l’intégration de partition sur un écran mobile va être compliqués et que tout doit être digeste pour un novice, pour ne pas lui donner l’envie de fuir après 5 min. Avec le travail du design sur papier puis sur figma j’arrive à quelques choses  de correcte et qui me sera facile d’intégrer.",
         "txt5": "Maintenant il me reste le gros quitte ou double, coder la logique, le fait que chaque clic me donne une réponse différente. Je voulais vraiment créer un système en JS avec une base vierge en HTML, en venant y injecter les données et les informations en js, pour ne pas à avoir à tout faire en HTML ce qui aurait été plus long à gérer et ce qui n’est pas optimisé. J’avais cette optique d’optimisation du code, et pour une première le résultat fonctionne bien, c’est pas parfait mais ça fonctionne.",
         "txt6": "Si tu veux jouer, apprendre les bases du solfège, tu es le bien venus à découvrir Music’owl.",
-        "link1": "",
-        "link2": "",
-        "link3": ""
+        "linkTxt": "Voir mon projet",
+        "link1": "http://antoni-dumont.be/projets/tfa/",
+        "link2": "https://www.figma.com/file/r9NGIy65WQuMmaKeDnXrcu/MVP?node-id=301%3A2",
+        "link3": "http://antoni-dumont.be/projets/tfa/"
     },
     {
         "id": 7,
@@ -177,19 +184,20 @@
         ],
         "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
         "title": "TFA",
-        "intro": " ",
+        "intro": "EN COURS ",
         "sousTitre1": "La PA$$ion ouais ",
         "sousTitre2": "Comment le faire ?",
         "sousTitre3": "Quand on l’aura ? ",
-        "txt1": "",
+        "txt1": "Projet en cours de création",
         "txt2": "",
         "txt3": "",
         "txt4": "",
         "txt5": "",
         "txt6": "",
-        "link1": "",
+        "linkTxt": "Voir mon projet",
+        "link1": "#",
         "link2": "",
-        "link3":""
+        "link3":"#"
     },
     {
         "id": 8,
@@ -200,7 +208,7 @@
             "js",
             "platformer"
         ],
-        "imgPoster": "http://localhost:3000/static/media/mars.80dfbc304139a25481e6.jpeg",
+        "imgPoster": "/static/media/amignonCover.1c3df674f6ebcec84a53.png",
         "title": "ILAB,\u00a0un platformer en JS",
         "intro": "Avec un groupe nous avons créer un platformer en js avec Kaboom.js & le Canvas , ainsis ce platformer à la mode mario bros nous enmènne découvrir les animaux .",
         "sousTitre1": "Amignion, une aventure",
@@ -212,9 +220,10 @@
         "txt4": "Ce n’est pas la libraire le plus utilisé dans la création de jeu, mais c’est celui avec une documentation la mieux fournie ( pas comme pour Phaser). Donc le jeu se passe dans un canvas où toutes les interactions avec les environnements se font par le biais de bloc qui vont comprendre les textures, ainsi avec l’ajout de fonctions pour leur rajouter ou non de la gravité, la possibilité de créer des intéractions, le fait de changer de plan, ... ",
         "txt5": "Pour le personnage, il a y a l’ajout de fonction plus spécifique comme la déclaration de variable avec les données pour le saut, le mouvement … Et comme le but est de créer des interactions avec différentes box dans le jeu, qui pourra dans certains cas ouvrir une box (une div ) avec du contenu informatif liées avec les actions du joueur.  ",
         "txt6": "Maintenant si tu es intéressé par ce petit jeu, que tu aimes les animaux et que tu veux savoir quel animal pourra être ton compagnon, joue à ce petit jeu. ",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "http://antoni-dumont.be/projets/ilab/",
+        "link2": "https://www.figma.com/file/8UJKrlN1dYPV1OnEDaTQ6C/iLab",
+        "link3":"http://antoni-dumont.be/projets/ilab/"
     },
     {
         "id": 9,
@@ -236,9 +245,10 @@
         "txt4": "Le reste de la mise en page ne sont que des ajustements pour les grands écrans ainsi que les spécificités des différentes polices ainsi que du bouton qui est présent pour revenir sur la home .",
         "txt5": "",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.404devchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE/404-page-challenge",
+        "link3":"www.404devchallenges.io.antoni-dumont.be"
     },
     {
         "id": 10,
@@ -260,9 +270,10 @@
         "txt4": "Pour réaliser les cartes des personnes, j’ai utilisé pour la fonction,  un transform sur deux axes de translations plus une rotation pour l’avoir comme sur le design. J’ai fait ce choix pour ne pas utiliser la position relative ou une grille, car pour moi c’est une solution qui est plus rapide et plus courte, et le résultat est le même.",
         "txt5": "",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.teamdevchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge",
+        "link3":"www.teamdevchallenges.io.antoni-dumont.be"
     },
     {
         "id": 11,
@@ -284,9 +295,10 @@
         "txt4": "Sinon pour le plus gros du contenu j’ai utilisé les flex-box pour avoir une simplicité dans la disposition des différents blocs ainsi qu’une dans la navigation/header. Le placement de la carte se fait avec un placement avec des margin et un négatif pour la faire monter sur l’image.",
         "txt5": "Pour les animations sur les éléments de la navigation, j’ai utilisé un transforme avec une rotation sur les X et en ajoutant un petit délai entre les éléments pour rendre ça plus agréables à voir. ",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.interior.devchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/3cf83hHRBAGjG5EKPcG2bV/interior-consultant-challenge",
+        "link3":"www.interior.devchallenges.io.antoni-dumont.be"
     },
     {
         "id": 12,
@@ -308,9 +320,10 @@
         "txt4": "Pour réaliser la numérotation custom, je suis passé par une simple liste en OL et pour arriver à vraiment avoir le box en orange avec les bons espacements comme sur le design, je suis parti avec un before sur l’attribut tout en injectant les chiffres avec du js ( avec un simple compteur ) ainsi j’ai pu modifier à ma guise la numérotation. ",
         "txt5": "J’ai aussi pris la liberté de modifier la checkbox au click, en lui ajoutant une couleur ainsi qu’un symbole coloré et de modifier le texte associé par l’ajout du texte barré, pour permettre une meilleure distinction de ce qu’on a déjà ou pas. ",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.recipe.devchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/2jVBTSKeCYF0dIN6fi0stX/recipe-blog-challenge",
+        "link3":"www.recipe.devchallenges.io.antoni-dumont.be"
     },
     {
         "id": 13,
@@ -332,9 +345,10 @@
         "txt4": "Pour la partie supérieure c’est un assemblage classique d’élément avec une position bougée avec des margin et un jeux avec les flex-box. C’est un modèle assez simple à faire, le plus ‘compliqué’ était la mise en place des photos. ",
         "txt5": "",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.gallery.devchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/HHzg6Ywq8jamFTB0J4iXKM/my-gallery-challenge",
+        "link3":"www.gallery.devchallenges.io.antoni-dumont.be"
     },
     {
         "id": 14,
@@ -356,9 +370,10 @@
         "txt4": "L’autre grosse partie fut de créer la boxe avec les items, comme je voulais que l’utilisateur puisse choisir le nombre d’items qu’il voulait et donc en fonction de ses choix le site calcule le prix total  avec les taxes. Ce ne fut pas trop compliqué à faire, juste une opération mathématique. ",
         "txt5": "",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.checkdevchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge",
+        "link3":"www.checkdevchallenges.io.antoni-dumont.be"
     },
     {
         "id": 15,
@@ -380,9 +395,10 @@
         "txt4": "Pour le menu hamburger qui n’était pas présent sur la maquette, je me suis permis de faire quelque chose de simple avec une petite animation quand on l’ouvre, pour rajouter ce petit coté de continuité et de cohérence visuel. ",
         "txt5": "Pour l’intégration du contenu, j’ai tout mis dans des sections, séparer par blocs pour pouvoir les gérer un à un avec des flex-box quand il le fallait et des grilles pour certains blocs ainsi avec l’ajout de quelque petite transition au hover, le projet a un rendu correct et est compréhensible sur mobile comme sur pc. ",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.edie.devchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage",
+        "link3":"www.edie.devchallenges.io.antoni-dumont.be"
     },
     {
         "id": 16,
@@ -404,9 +420,10 @@
         "txt4": "J’ai aussi décidé de placer un menu hamburger persistant peut importe la taille de l’écran, pour ne pas gâcher l’espace avec une nav qui n’est pas forcément nécessaire mais qui permet de se déplacer plus vite dans la page et entre les différentes parties. ",
         "txt5": "Et comme pour les autres projets, pour mettre en place facilement certains éléments j’ai utilisé les flex-box et le système de grilles afin de créer  les bons composants comment ceux qu’on avait.",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.portfolio.devchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/O7Omgz2iVR7Vox7shf7O8e/portfolio",
+        "link3":"www.portfolio.devchallenges.io.antoni-dumont.be"
     },
     {
         "id": 17,
@@ -428,9 +445,10 @@
         "txt4": "Ainsi avec divers atout qu’apporte le SCSS, j’ai pu mettre facilement en place les différents boutons et inputs demandé, même si j’aurai pu réduire au maximum les composants pour alléger le fichier et jouer le plus possible avec les propriétés CSS. ",
         "txt5": "Mais au final tout est bien qui fini bien et alors la demande est respectée, et je me suis permis de faire un rapide mode mobile qui n’était pas présent dans le design, mais qui permet aussi une meilleure visibilité sur GSM. ",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.button.devchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/slzHnI05qpbBeC33ZMZGa5/input-component",
+        "link3":"www.button.devchallenges.io.antoni-dumont.be"
     },
     {
         "id": 18,
@@ -452,9 +470,10 @@
         "txt4": "Pour la réalisation des différentes cartes j’ai utilisé un composant ou j’ai fait mapper une base de donnée, d’un fichier JSON avec toutes les informations pour les faire. Ainsi avec l’information pour le superHost, il y a une condition qui ajoute ou non une class pour faire comme sur le design.         ",
         "txt5": " Pour la réalisation de différent mode de recherche j’ai mis en place un système de recherche avec l’input pour la ville qui va comparer les différents id des cartes et affiché celle avec le bon id. J’aurai pu mettre en place un .filter avec des données du JSON, mais je n’en avais pas encore connaissance de cette technique.         ",
         "txt6": "Si tu veux voir le résultat n’hésite pas surtout à utiliser la vue sur mobile avec F12.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "www.windbd.devchallenges.io.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/KGNH8dbclXT1vzXLyPrBeu/Windbnb",
+        "link3":"www.windbd.devchallenges.io.antoni-dumont.be"
     },
     {
         "id": 19,
@@ -462,9 +481,9 @@
         "tag": [
             "projet\u00a0perso",
             "design",
-            ""
+            "design"
         ],
-        "imgPoster": "",
+        "imgPoster": "/static/media/littlesunCover.ef5acb91033f7f86c31b.jpg",
         "title": "The\u00a0Little Sun",
         "intro": "Voici un design fait en 2021, en cours pour répondre à la demande d'une personne pour lui créer un site pour son atelier de récup avec une présentation de ses créations et des prestations quelle propose.",
         "sousTitre1": "La PA$$ion ouais ",
@@ -472,13 +491,14 @@
         "sousTitre3": "Quand on l’aura ? ",
         "txt1": "Pour ce projet suite à une demande d’un de mes professeurs de réaliser un design pour une dame ayant un atelier de récupération et de redesign d’intérieur avec comme thème principale la récupération, la chaleur et  l’écologie, j’ai fini par créer ce design sur un prototype Figma en 2021. ",
         "txt2": "Ainsi quelques mois plus tard j’ai décidé de réaliser ce site que j’avais fait au par avant car il sortait de ce que j’avais l’habitude de faire. J’avais un nouveau défis à réaliser. ",
-        "txt3": "",
-        "txt4": "",
-        "txt5": "",
-        "txt6": "",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "txt3": "Pour ce défi j’ai voulu le faire fonctionnelles en HTML, CSS et JS, pour me tester et voir si je suis capable de réaliser un projet avec un design correct, qui change de ce que je fais habituellement. Et pour être honnête, au moment où je l’ai fini j’étais fier de ça réalisation, même si maintenant je vois des erreurs, des choses que je pourrais améliorer je suis content d’avoir fais ce projet qui m’a permis d’avancer dans mon apprentissage.         ",
+        "txt4": "Pour la réalisation des pages rien n’est bien complexe, pour la mise en place de plusieurs éléments j’utilise des grilles afin de les placer correctement, et avoir un design un peu plus libre dans la réalisation, même si sur mobile cela reste fort classique. Ainsi les éléments les plus complexes sont les sliders à mettre en place, car j’ai réalisé cela avec simplement du CSS et des overflow hidden. Et la customisation des éléments de formulaire qui ma demande d’aller me documentez, car ce sont des éléments assez spéciaux, qui réagissent assez mal au CSS.",
+        "txt5": "Pour la partie du JS, elle à surtout servis pour le burger menu, que j’ai voulus simple mais efficaces. Le code est simple mais fonctionnelle, car tous les sites ne demande pas de réinventer la roue, alors la simplicité d’un code est parfois la bonne idée. ",
+        "txt6": "Tu es curieux de voir mon premier projet hors scolaire qui m’a donné encore plus envie d’avancer dans mon apprentissage et dans mon envie de développer toujours plus. Alors clique vite sur le lien. ",
+        "linkTxt": "Voir mon projet",
+        "link1": "http://www.littlesun.antoni-dumont.be/index.html",
+        "link2": "https://www.figma.com/file/UuYYp2b8c8uD5WcBXYedWO/little-sun-proto?node-id=0%3A1",
+        "link3":"http://www.littlesun.antoni-dumont.be/index.html"
     },
     {
         "id": 20,
@@ -488,7 +508,7 @@
             "mvp",
             "2021"
         ],
-        "imgPoster": "",
+        "imgPoster": "/static/media/musicowlCover.de03d7284fdf95af3083.jpg",
         "title": "Music'owl le\u00a0mvp",
         "intro": "Voici le mvp que j'ai créer pour mon tfa de 2021, en plus du design j'ai codé l'application pour donner un cours de solfège au personne qui le souhaite. C'est le début d'une aventure musicale.",
         "sousTitre1": "Un service pour chaque",
@@ -500,9 +520,10 @@
         "txt4": "La création fut un peu plus compliquée que prévu, car le premier problème qui se confronte à moi est le fait que je n’ai jamais créé de tel système, que l’intégration de partition sur un écran mobile va être compliqués et que tout doit être digeste pour un novice, pour ne pas lui donner l’envie de fuir après 5 min. Avec le travail du design sur papier puis sur figma j’arrive à quelques choses  de correcte et qui me sera facile d’intégrer.",
         "txt5": "Maintenant il me reste le gros quitte ou double, coder la logique, le fait que chaque clic me donne une réponse différente. Je voulais vraiment créer un système en JS avec une base vierge en HTML, en venant y injecter les données et les informations en js, pour ne pas à avoir à tout faire en HTML ce qui aurait été plus long à gérer et ce qui n’est pas optimisé. J’avais cette optique d’optimisation du code, et pour une première le résultat fonctionne bien, c’est pas parfait mais ça fonctionne.",
         "txt6": "Si tu veux jouer, apprendre les bases du solfège, tu es le bien venus à découvrir Music’owl.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "http://musicowl.antoni-dumont.be/index.html",
+        "link2": "https://www.figma.com/file/r9NGIy65WQuMmaKeDnXrcu/MVP?node-id=301%3A2",
+        "link3":"http://musicowl.antoni-dumont.be/index.html"
     },
     {
         "id": 21,
@@ -512,21 +533,22 @@
             "js",
             "calcule"
         ],
-        "imgPoster": "",
+        "imgPoster": "/static/media/cryptoCover.d08e0aac06370f2d0525.png",
         "title": "Crypto\u00a0Bank",
         "intro": "C'est un petit projet sur mobile peux importe le device, pour jouer avec les chiffres sur la base des opérations mathématiques et de différentes cryptos, c'est comme une calculatrice.",
         "sousTitre1": "La PA$$ion ouais ",
         "sousTitre2": "Comment le faire ?",
         "sousTitre3": "Quand on l’aura ? ",
-        "txt1": "",
+        "txt1": "Pour la création de ce projet, je voulais jouer avec le JS, faire une sorte de calculatrice mais un peu customiser. Donc je suis parti sur une page qui permet de faire des calculs de taux de certaines cryptomonnaies avec les valeurs que rentre l’utilisateur. Une petite calculatrice en somme. ",
         "txt2": "",
-        "txt3": "",
-        "txt4": "",
+        "txt3": "Le design de cette petite page, je la voulais simple et facile à utiliser, pour ce faire j’ai décidé de mettre des couleurs assez vive sur les différentes CTA et de laisser ce format mobile peut importe la taille de son écran on à tous le même visuel. Ainsi avec cette approche de simplicité, les actions ouvrent des overlays qui donnent d’autre possibilité à l’utilisateur. ",
+        "txt4": "Pour le code la plus grosse partie se joue dans le JS, car je voulais rendre ce projet un peu customisable, car comme c’est une calculatrice, les valeurs doivent changer. J’ai donc fait en sorte que des overlay s’ouvre pour afficher les valeurs que la personne voulait rentrer et après elle peut voir le résultat et une addition sur ça carte de crypto banque. Ce projet est simple mais m’a donné envie de plonger à fond dans le JS et d’en apprendre beaucoup plus sur ce langage, e depuis, j’utilise le JS dès que je peux pour faire changer les choses. ",
         "txt5": "",
-        "txt6": "",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "txt6": "Si tu es curieux de découvrir ce projet, viens jeter un coup d’œil . ",
+        "linkTxt": "Voir mon projet",
+        "link1": "www.cryptobank.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/6K2SdbxCMyJauExKmOaTF0/?node-id=188%3A2",
+        "link3":"www.cryptobank.antoni-dumont.be"
     },
     {
         "id": 22,
@@ -536,21 +558,22 @@
             "mars",
             "design"
         ],
-        "imgPoster": "",
+        "imgPoster": "/static/media/mars.80dfbc304139a25481e6.jpeg",
         "title": "Mars\u00a0the new hope",
         "intro": "Voici une présentation de la planète Mars, avec un design simple qui présente les informations principales de cette planète sur différents points ainsi que les différentes missions effectués.",
         "sousTitre1": "La PA$$ion ouais ",
         "sousTitre2": "Comment le faire ?",
         "sousTitre3": "Quand on l’aura ? ",
-        "txt1": "",
+        "txt1": "Le but de ce projet est de données une information simple, efficace et rapide sur la planète rouge. J’ai voulu mettre en avant un design un peu plus centré sur les illustrations qui met en avant le contenu pour arriver à une création qui donne envie de partir en voyage. ",
         "txt2": "",
-        "txt3": "",
-        "txt4": "",
+        "txt3": "Pour réaliser ce projet, rien de plus simple je suis parti de mon idée, de mon envie de faire découvrir un maximum d’information en un minimum de temps en mettant en avant des illustrations. Pour ce faire je suis parti sur la réalisation d’un design dans des tons qui laisse notre imaginaire s’évader dans les étoiles pour arriver sur cette planète rouge. C’est en utilisant des dégradés, des filtres sur les images ainsi qu’une couleur de contraste que j’ai fini ce design sur mobile ainsi que pc. C’est alors que mon aventure commence. ",
+        "txt4": "Pour le code rien de plus compliqué, une intégration en pur HTML & CSS, avec des medias querries pour faire un projet responsive. J’ai utilisé des grilles simples pour placer mes éléments dans un ordre un peu plus original et pour mettre en avant le contenu et le visuel. Le plus compliqué fut de gérer toutes les images et leurs effets sur le texte, car certaines devant disparaître a moitié en mobile, il a fallu que je joue avec des overflow hidden, pour ne pas avoir de scrolle horizontale et ainsi respecter mon design. Sinon le reste du code respecte assez bien ce que j’avais imaginé et ne fut pas trop complexe à intégrer. JE voulais surtout me challenger au niveau du design, ce que je trouve, avoir réussi à faire. ",
         "txt5": "",
-        "txt6": "",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "txt6": "Toi aussi tu veux partir dans les étoiles et en apprendre plus sur la planète rouge ? Alors prends ta fusée et envole-toi jusqu’au bouton. ",
+        "linkTxt": "Voir mon projet",
+        "link1": "www.marsnewhope.antoni-dumont.be",
+        "link2": "https://www.figma.com/file/6K2SdbxCMyJauExKmOaTF0/?node-id=436%3A2",
+        "link3":"www.marsnewhope.antoni-dumont.be"
     },
     {
         "id": 23,
@@ -560,18 +583,19 @@
             "react",
             "todo"
         ],
-        "imgPoster": "",
+        "imgPoster": "/static/media/todoCover.d2d5f2e1de420c25daed.jpg",
         "title": "React\u00a0todo list",
         "intro": "Une todo Reactive pour ne rien oublier! Enfin si on l'utilise correctement, cette todo est basée sur react et la gestion des évènements par les CTA. En tout cas il pourra suivre ces objectif. ",
         "sousTitre1": "La PA$$ion ouais ",
         "sousTitre2": "Comment le faire ?",
         "sousTitre3": "Quand on l’aura ? ",
-        "txt1": "",
+        "txt1": "C’est un projet pour en apprendre plus sur les utilisations de l’univers qui tourne autour de react , notamment avec Redux qui permet une gestion des données en local. Ce projet fut la suite de mon apprentissage de react et de son écosystème. ",
         "txt2": "",
-        "txt3": "",
-        "txt4": "",
+        "txt3": "Comme pour mes autres apprentissages, je n’ai pas mis le design au premier plan, c’est pour ça que ce n’est pas particulièrement beau mais c’est fonctionnel et ce fut le but rechercher. Facile à utiliser, avoir sa gestion des taches restantes et voir ce qu’on avait déjà fait en différencier. Ainsi cette partie sur le design est déjà fini. ",
+        "txt4": "Comme ce projet utilise Redux comme base première et n’est pas relié à une DB externe, tout ce que tu fais sur le projet est stocké en local, ce qui permet de vite récupérer les informations mais est le moins optimisé si tu souhaites utiliser la même application sur différents appareille. Ainsi avec les composants une base des éléments sont créés à l’avance et il fait changer, se rajouter ou bien disparaître en fonction des ordres envoyer par l’utilisateur. Un projet simple même si l’utilisation de redux n’est pas fait pour tous les projets. ",
         "txt5": "",
-        "txt6": "",
+        "txt6": "Si tu souhaites une petite todo list un peu custom sur un seul et unique appareil alors tu peux te lancer dedans sans problèmes . ",
+        "linkTxt": "Voir mon projet",
         "link1": "",
         "link2": "",
         "link3":""
@@ -584,21 +608,22 @@
             "clone",
             "discord"
         ],
-        "imgPoster": "",
+        "imgPoster": "http://antoni-dumont.be/static/media/discordCover.e56ad7fb0126843e1a48.jpg",
         "title": "Discord\u00a0clone",
         "intro": "Voici un clone d'une fonctionnalité que propose discorde, on peut se conecté grâce a firebase et on arrive dans un chat pour s'envoyer des messages avec une possiblité de créer d'autre salon. ",
         "sousTitre1": "La PA$$ion ouais ",
         "sousTitre2": "Comment le faire ?",
         "sousTitre3": "Quand on l’aura ? ",
-        "txt1": "",
+        "txt1": "Voici un autre clone, pour la passion de l’apprentissage et l’envie d’apprendre à faire un projet avec un back. Ce projet discord utilise react,js pour toute la partie du front mais aussi firebase pour le back avec la gestion des comptes et des messages. ",
         "txt2": "",
-        "txt3": "",
-        "txt4": "",
+        "txt3": "Pour la partie design, c’est un copié coller de ce que fait Discord, comme c’est un clone, le but rechercher est la création de ce qui existe. Avec comme but l’apprentissage de react pour réussir à refaire le design à fond avec les interactions ainsi que les petits éléments qui en font ça spécialité. ",
+        "txt4": "Pour faire ce projet j’ai aussi suivis une vidéo pour faire ce projet, en guise d’avancer dans mon apprentissage et dans l’utilisation d’un back avec firebase et redux. Ce fut une partie un peu plus compliquée avec la gestion de la basse de données, car les accès fait dans la vidéo et au moment où je l’ai fait était différent. Donc j’ai pu apprendre à le faire à moitié en solo, ce qui est un avantage, car j’ai pu explorer un peu plus la documentation de cette DB. Mais pour le reste cela reste une gestion plutôt basique de la création d’un projet dynamique sous react. ",
         "txt5": "",
-        "txt6": "",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "txt6": "Si tu veux chatter avec des inconnus, enfin pas trop, et que tu souhaites tester cette version de discord, alors viens laisser ton petit message. ",
+        "linkTxt": "Voir mon projet",
+        "link1": "https://discord-clone-926b5.web.app/",
+        "link2": "https://discord-clone-926b5.web.app/",
+        "link3":"http://antoni-dumont.be/projetperso/discordclone/"
     },
     {
         "id": 25,
@@ -608,21 +633,22 @@
             "clone",
             "spotify"
         ],
-        "imgPoster": "",
+        "imgPoster": "/static/media/spotifyCover.39fc047fed85e6d2fecf.jpg",
         "title": "Spotify\u00a0clone",
         "intro": "Voici un clone de l'interface graphique de spotify ( l'UI) que j'ai refait avec react.js pour apprendre l'utilisation des routes avec react-router-dom. Une mise en situation qui fut l'une des première.",
         "sousTitre1": "La PA$$ion ouais ",
         "sousTitre2": "Comment le faire ?",
         "sousTitre3": "Quand on l’aura ? ",
-        "txt1": "",
+        "txt1": "Pour la passion, car l’apprentissage, je me suis lancé dans la reconstruction de l’interface graphique de Spotify, qui est assez intéressante sur le côté utilisation des composants qu’on retrouve dans le design de ce site. Ce projet m’a permis de voir les bases de React,js ainsi que l’utilisation de react-router-dom, pour naviguer dans le projet. Mais après plusieurs heures de vidéo et de code le projet est rendu et je me suis permis de lui donner un petit coté responsive. ",
         "txt2": "",
-        "txt3": "",
-        "txt4": "",
+        "txt3": "Pour la partie design, c’est un copié coller de ce que fait Spotify, comme c’est un clone, le but rechercher est la création de ce qui existe. Avec comme but l’apprentissage de react pour réussir à refaire le design à fond avec les interaction ainsi que les petits éléments qui en font ça spécialité. ",
+        "txt4": "Avec les différents moyens de recréer un site, ici une web-app, je me suis basé sur un framework assez bien connu qui est React,js, qui est assez populaire pour l’instant et qui me permet de rentrer dans cet univers des frameworks et des sites interactifs. Donc pour cet apprentissage j’ai pu voir les bases, l’utilisation de composants, des UseEffect et du routage qui est assez important, car on ne navigue pas dans les projets react comme dans un projet plus simple en HTML avec des liens vers les autres pages. ",
         "txt5": "",
-        "txt6": "",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "txt6": "Si tu veux voir un clone de spotify, qui fonctionne, enfin sauf la musique, alors si tu es intéressé viens passer ta curiosité avec ta musique.         ",
+        "linkTxt": "Voir mon projet",
+        "link1": "http://antoni-dumont.be/projetperso/spotifyclone/",
+        "link2": "https://www.spotify.com/fr/",
+        "link3":"http://antoni-dumont.be/projetperso/spotifyclone/"
     },
     {
         "id": 26,
@@ -632,21 +658,22 @@
             "react",
             "todo"
         ],
-        "imgPoster": "",
+        "imgPoster": "/static/media/alienCover.ee26b7d6f14148aac52e.png",
         "title": "Aliensage\u00a0👽",
         "intro": "Voici une application de messagerie que je monte petit à petit dans un projet MERN (Mango Express React Node.js ), une messagerie avec un clin d'oeuil au alien car certains messages viennet de loin 👾. ",
         "sousTitre1": "La PA$$ion ouais ",
         "sousTitre2": "Comment le faire ?",
         "sousTitre3": "Quand on l’aura ? ",
-        "txt1": "",
-        "txt2": "",
-        "txt3": "",
+        "txt1": "Le but de ce projet, est de me familiariser avec le back-end, non pas en le développant entièrement, car mes connaissances ne sont pas assez poussé pour y arriver mais bien en utilisant un service qui me propose de le gérer pour moi. Je veux intégrer ce système à ce projet et l’utiliser avec mes potes pour le fun. ",
+        "txt2": "C’est pour ça que le design n’est pas avec une direction artistique les plus communes dans le monde des applications de conversations, mais c’est ses couleurs qui me permettent de me démarquer des autres et d’y intégrer cette touche qui est propres à aliensage",
+        "txt3": "Le projet est en cours de construction",
         "txt4": "",
         "txt5": "",
         "txt6": "",
-        "link1": "",
-        "link2": "",
-        "link3":""
+        "linkTxt": "Voir mon projet",
+        "link1": "#",
+        "link2": "https://www.figma.com/file/LJJagw7mfhd5Fp1GNpHoGz/?node-id=55%3A2",
+        "link3":"#"
     },
     {
         "id": 27,
@@ -656,7 +683,7 @@
             "react",
             "todo"
         ],
-        "imgPoster": "",
+        "imgPoster": "/static/media/animathonCover.3e7d576d7f716af3fd38.jpg",
         "title": "Animathon\u00a0👺",
         "intro": "Voici une application de gestion, de suivis des animés que toi ou d'autres utilisateur vont pouvoir les lister dans des playlist et ainsi les partagers avec leur amis. Il est encore en constuction 🚧.  ",
         "sousTitre1": "La PA$$ion ouais",
@@ -668,8 +695,9 @@
          "txt4": "Ainsi la rédaction des composants et du style vas sûrement être la tache la plus « simple » car il n’y a pas de basse de données, d’api qui a toutes les caractéristiques dont j’ai besoin. Pour ce faire je vais la composée moi-même pour en avoir une la plus complètes possible.   ",
          "txt5": "",
          "txt6": "Ce projet n’est pas encore fini, mais d’ici quelques mois vous pour profiter de ce petit projet.",
-        "link1": "",
-        "link2": "",
-        "link3":""
+         "linkTxt": "Voir mon projet",
+        "link1": "#",
+        "link2": "https://www.figma.com/file/vE9SSqprUJmi7fImTAoc2P/AnimaThon-color?node-id=586%3A405",
+        "link3":"#"
     }
 ]

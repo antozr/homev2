@@ -7,10 +7,28 @@ import dataProjet from '../assets/data/projetDataDescription.json';
 import Card from '../Components/Card';
 import Mars from '../assets/img/mars.jpg';
 
+import i1 from '../assets/img/alienCover.png';
+
+import i2 from '../assets/img/datahubCover.png';
+
+import i3 from '../assets/img/rux21Cover.jpg';
+
+import i4 from '../assets/img/rux22cover.png';
+import i5 from '../assets/img/dataplayCover.png';
+import i6 from '../assets/img/helloWorldCover.png';
+import i7 from '../assets/img/cryptoCover.png';
+import i8 from '../assets/img/littlesunCover.jpg';
+import i9 from '../assets/img/amignonCover.png';
+import i10 from '../assets/img/musicowlCover.jpg';
+import i11 from '../assets/img/spotifyCover.jpg';
+import i12 from '../assets/img/discordCover.jpg';
+import i13 from '../assets/img/animathonCover.jpg';
+import i14 from '../assets/img/todoCover.jpg';
 
 function OverlayProjet({ title }) {
 
-
+    let tabImg = [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10 ,i11, i12 ,i13, i14];
+    console.log(tabImg);
     console.log(title);
     const params = useParams();
     console.log(params.id);
@@ -70,9 +88,9 @@ function OverlayProjet({ title }) {
                     <span className='overlay__txtSpan'></span>
                     {elJSONOverlay[0].txt1}
                 </p>
-                <a href="http://#" target="_blank" rel="noopener noreferrer" className="overlay__link b1" >
+                <a href={elJSONOverlay[0].link1} target="_blank" rel="noopener noreferrer" className="overlay__link b1" >
                     <p>
-                        Lire mon analyse
+                        {elJSONOverlay[0].linkTxt}
                     </p>
                 </a>
                 <p className="project__txt overlay__txt t2" >
@@ -109,12 +127,12 @@ function OverlayProjet({ title }) {
                     <span className='overlay__txtSpan'></span>
                     {elJSONOverlay[0].txt6}
                 </p>
-                <a href="http://#" target="_blank" rel="noopener noreferrer" className="overlay__link t2">
+                <a href={elJSONOverlay[0].link2} target="_blank" rel="noopener noreferrer" className="overlay__link t2">
                     <p>
                         Voir la maquette
                     </p>
                 </a>
-                <a href="http://#" target="_blank" rel="noopener noreferrer" className="overlay__link b1">
+                <a href={elJSONOverlay[0].link3} target="_blank" rel="noopener noreferrer" className="overlay__link b1">
                     <p>
                         Voir le projet
                     </p>

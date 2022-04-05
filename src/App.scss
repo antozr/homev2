@@ -7,6 +7,11 @@
   font-family: 'ep-stellaris';
   src:  url(./assets/font/ep-stellaris.woff) format('woff');
 }
+@media (prefers-color-scheme: light) {
+   body{
+     background-color:#ffffff ;
+   }
+}
 
 a{
   //cursor: url('./assets/svg/hand_swipe.svg'), auto;
